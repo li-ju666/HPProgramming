@@ -14,7 +14,11 @@ int main(){
 	char input[100]; 
         char command;
 	float max, min;
-	node *root = NULL, *temp=NULL, *current_node=NULL; 
+	node *root = (node*)malloc(sizeof(node)); 
+	root->day = 0; 
+	root->min = -1; 
+	root->max = -1; 
+	root->next = NULL; 
 	while(run){
 		printf("\nEnter command: "); 
 		while(fgets(input, 100, stdin)==NULL); 
@@ -23,45 +27,34 @@ int main(){
 		if(input[0]==65){
 			sscanf(input, "%*c %d %f %f", &day, &min, &max); 
 			//printf("%d, %f, %f\n", day, min, max);
-			if((unsigned int)day < 32 && day != 0){
-				temp = (node*)malloc(sizeof(node)); 
+			if((unsigned int)(day-1) < 31){
+				node *temp = (node*)malloc(sizeof(node)), *current_node = root; 
 				temp->day = day; 
 				temp->max = max; 
 				temp->min = min; 
 				temp->next = NULL; 
-				//printf("Data is: %d, %f, %f. \n", temp->day, temp->min, temp->max); 
-				current_node = root; 
-				// Insert before the first node
-				if (root == NULL || (root->day) > (temp->day)){
-					temp->next = root; 
-					root = temp; 
+				// locating current_node to the modification-required position
+				while(current_node->next != NULL && (current_node->next->day)<day){
+					current_node = current_node->next;  
 				}
-				// Update the first node
-				else if(root->day == temp->day){
-					root->min = temp->min; 
-					root->max = temp->max; 
-					free(temp); 
-				}
-				// Cases requiring modifying non-first node
-				else{
-					// locating current_node to the modification-required position
-					while(current_node->next != NULL && (current_node->next->day)<(temp->day)){
-						current_node = current_node->next; 
-					}
-					// case in which new node needs to be inserted
-					if(current_node->next == NULL || (current_node->next->day)>(temp->day)){
-						temp->next = current_node->next; 
+				// case in which new node needs to be inserted to the tail
+				if(current_node->next == NULL){
 						current_node->next = temp; 
-					}
-					// case in which next node needs to be updated
-					else{
-						current_node->next->min = temp->min; 	
-						current_node->next->max = temp->max; 
-						free(temp); 
-					}
-
 				}
+				// case in which next node needs to be updated
+				else if(current_node->next->day == day){
+					free(temp); 	
+					current_node->next->min = min; 	
+					current_node->next->max = max; 
+					}
+				// case in which the node needs to be inserted before next node
+				else{
+					temp->next = current_node->next; 
+					current_node->next = temp; 
+				}
+
 			}
+			
 			else{
 				printf("Error: invalid day input! \n"); 
 			}
@@ -69,22 +62,15 @@ int main(){
 		// when command is "D":
 		else if(input[0]==68){
 			sscanf(input, "%*c %d", &day); 
-			if(day != 0 && (unsigned int)day < 32){
-				current_node = root;
-				//if the table is empty. 
-				if(root == NULL){printf("Error: The table is already empty. \n"); }
-				// if the first node needs to be deleted. 
-				else if(root->day == day){
-					temp = root->next; 
-					free(root); 
-					root = temp;
-				}
-				// if nodes after needs to be deleted; 
+			if((unsigned int)(day-1) < 31){
+				node* current_node = root, *temp;
+				// if the table is empty. 
+				if(root->next == NULL){printf("Error: The table is already empty. \n"); }
 				else{
-					// locating the current_node to the node before the deletion-required node or the last node. 
+					// locating current_node to the node pointing to the to-deleted node or the last node
 					while(current_node->next != NULL && current_node->next->day != day){
 						current_node = current_node->next;}
-					// if all queued nodes are traversed and current_node is located to the last node (input day does not exist. ): 
+					// if all queued nodes are traversed and current_node is pointing to the last node (input day does not exist. ): 
 					if(current_node->next == NULL){
 						printf("Data of the day not existing! \n"); 
 					}
@@ -94,17 +80,17 @@ int main(){
 						current_node->next = current_node->next->next; 
 						free(temp); 
 					}
-					}
 				}
+			}
+				
 			else{
 				printf("Error: invalid day input! \n"); 
 			}
-
 			
 		}
 		// when command is "P": 
 		else if(input[0]==80){
-			current_node = root;
+			node* current_node = (root->next); 
 			printf("day   min         max\n"); 
 			while(current_node != NULL){
 				printf("%d   %f   %f\n", current_node->day, current_node->min, current_node->max); 
@@ -115,6 +101,7 @@ int main(){
 		else if(input[0]==81){
 			// Loop ends. 
 			run = 0;
+			node* temp; 
 			// free all memory of each node. 
 			while(root!=NULL){
 				temp = root; 
