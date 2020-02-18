@@ -1,0 +1,581 @@
+00010 /home/sariel/HPP/as3/Assignment3/input_data/ellipse_N_00010.gal 200
+N = 10
+fileName1 = 'result.gal'
+fileName2 = '/home/sariel/HPP/as3/Assignment3/ref_output_data/ellipse_N_00010_after200steps.gal'
+pos_maxdiff =   0.000003411465
+1
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+2
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+3
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+4
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+5
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+6
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+7
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+8
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+9
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+10
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+00100 /home/sariel/HPP/as3/Assignment3/input_data/ellipse_N_00100.gal 200
+N = 100
+fileName1 = 'result.gal'
+fileName2 = '/home/sariel/HPP/as3/Assignment3/ref_output_data/ellipse_N_00100_after200steps.gal'
+pos_maxdiff =   0.000000207193
+1
+
+real	0m0.017s
+user	0m0.017s
+sys	0m0.000s
+2
+
+real	0m0.017s
+user	0m0.014s
+sys	0m0.003s
+3
+
+real	0m0.017s
+user	0m0.017s
+sys	0m0.000s
+4
+
+real	0m0.019s
+user	0m0.019s
+sys	0m0.000s
+5
+
+real	0m0.018s
+user	0m0.018s
+sys	0m0.000s
+6
+
+real	0m0.020s
+user	0m0.020s
+sys	0m0.000s
+7
+
+real	0m0.017s
+user	0m0.017s
+sys	0m0.000s
+8
+
+real	0m0.017s
+user	0m0.017s
+sys	0m0.000s
+9
+
+real	0m0.018s
+user	0m0.018s
+sys	0m0.000s
+10
+
+real	0m0.019s
+user	0m0.019s
+sys	0m0.000s
+00500 /home/sariel/HPP/as3/Assignment3/input_data/ellipse_N_00500.gal 200
+N = 500
+fileName1 = 'result.gal'
+fileName2 = '/home/sariel/HPP/as3/Assignment3/ref_output_data/ellipse_N_00500_after200steps.gal'
+pos_maxdiff =   0.000000019543
+1
+
+real	0m0.395s
+user	0m0.395s
+sys	0m0.000s
+2
+
+real	0m0.394s
+user	0m0.390s
+sys	0m0.004s
+3
+
+real	0m0.396s
+user	0m0.392s
+sys	0m0.004s
+4
+
+real	0m0.397s
+user	0m0.397s
+sys	0m0.000s
+5
+
+real	0m0.396s
+user	0m0.396s
+sys	0m0.000s
+6
+
+real	0m0.397s
+user	0m0.393s
+sys	0m0.004s
+7
+
+real	0m0.398s
+user	0m0.394s
+sys	0m0.004s
+8
+
+real	0m0.396s
+user	0m0.396s
+sys	0m0.000s
+9
+
+real	0m0.397s
+user	0m0.397s
+sys	0m0.000s
+10
+
+real	0m0.396s
+user	0m0.396s
+sys	0m0.000s
+01000 /home/sariel/HPP/as3/Assignment3/input_data/ellipse_N_01000.gal 200
+N = 1000
+fileName1 = 'result.gal'
+fileName2 = '/home/sariel/HPP/as3/Assignment3/ref_output_data/ellipse_N_01000_after200steps.gal'
+pos_maxdiff =   0.000000028702
+1
+
+real	0m1.705s
+user	0m1.698s
+sys	0m0.008s
+2
+
+real	0m1.733s
+user	0m1.729s
+sys	0m0.004s
+3
+
+real	0m1.783s
+user	0m1.779s
+sys	0m0.004s
+4
+
+real	0m1.757s
+user	0m1.753s
+sys	0m0.004s
+5
+
+real	0m1.716s
+user	0m1.712s
+sys	0m0.004s
+6
+
+real	0m1.762s
+user	0m1.754s
+sys	0m0.008s
+7
+
+real	0m1.741s
+user	0m1.737s
+sys	0m0.004s
+8
+
+real	0m1.746s
+user	0m1.741s
+sys	0m0.004s
+9
+
+real	0m1.740s
+user	0m1.727s
+sys	0m0.012s
+10
+
+real	0m1.705s
+user	0m1.701s
+sys	0m0.004s
+02000 /home/sariel/HPP/as3/Assignment3/input_data/ellipse_N_02000.gal 200
+N = 2000
+fileName1 = 'result.gal'
+fileName2 = '/home/sariel/HPP/as3/Assignment3/ref_output_data/ellipse_N_02000_after200steps.gal'
+pos_maxdiff =   0.000000018677
+1
+
+real	0m8.752s
+user	0m8.727s
+sys	0m0.024s
+2
+
+real	0m8.759s
+user	0m8.743s
+sys	0m0.016s
+3
+
+real	0m8.742s
+user	0m8.734s
+sys	0m0.008s
+4
+
+real	0m8.766s
+user	0m8.750s
+sys	0m0.016s
+5
+
+real	0m9.644s
+user	0m9.616s
+sys	0m0.021s
+6
+
+real	0m8.846s
+user	0m8.833s
+sys	0m0.012s
+7
+
+real	0m8.791s
+user	0m8.775s
+sys	0m0.016s
+8
+
+real	0m8.744s
+user	0m8.728s
+sys	0m0.016s
+9
+
+real	0m8.761s
+user	0m8.744s
+sys	0m0.016s
+10
+
+real	0m8.731s
+user	0m8.715s
+sys	0m0.016s
+03000 /home/sariel/HPP/as3/Assignment3/input_data/ellipse_N_03000.gal 100
+N = 3000
+fileName1 = 'result.gal'
+fileName2 = '/home/sariel/HPP/as3/Assignment3/ref_output_data/ellipse_N_03000_after100steps.gal'
+pos_maxdiff =   0.000000001882
+1
+
+real	0m9.301s
+user	0m9.264s
+sys	0m0.036s
+===================================================================================
+00010 /home/sariel/HPP/as3/Assignment3/input_data/ellipse_N_00010.gal 200
+N = 10
+fileName1 = 'result.gal'
+fileName2 = '/home/sariel/HPP/as3/Assignment3/ref_output_data/ellipse_N_00010_after200steps.gal'
+pos_maxdiff =   0.000003411465
+1
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+2
+
+real	0m0.003s
+user	0m0.003s
+sys	0m0.000s
+3
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+4
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+5
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+6
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+7
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+8
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+9
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+10
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+00100 /home/sariel/HPP/as3/Assignment3/input_data/ellipse_N_00100.gal 200
+N = 100
+fileName1 = 'result.gal'
+fileName2 = '/home/sariel/HPP/as3/Assignment3/ref_output_data/ellipse_N_00100_after200steps.gal'
+pos_maxdiff =   0.000000207193
+1
+
+real	0m0.009s
+user	0m0.010s
+sys	0m0.000s
+2
+
+real	0m0.008s
+user	0m0.008s
+sys	0m0.000s
+3
+
+real	0m0.008s
+user	0m0.008s
+sys	0m0.000s
+4
+
+real	0m0.010s
+user	0m0.006s
+sys	0m0.004s
+5
+
+real	0m0.008s
+user	0m0.008s
+sys	0m0.000s
+6
+
+real	0m0.008s
+user	0m0.008s
+sys	0m0.000s
+7
+
+real	0m0.011s
+user	0m0.008s
+sys	0m0.003s
+8
+
+real	0m0.008s
+user	0m0.008s
+sys	0m0.000s
+9
+
+real	0m0.008s
+user	0m0.008s
+sys	0m0.000s
+10
+
+real	0m0.008s
+user	0m0.009s
+sys	0m0.000s
+00500 /home/sariel/HPP/as3/Assignment3/input_data/ellipse_N_00500.gal 200
+N = 500
+fileName1 = 'result.gal'
+fileName2 = '/home/sariel/HPP/as3/Assignment3/ref_output_data/ellipse_N_00500_after200steps.gal'
+pos_maxdiff =   0.000000019543
+1
+
+real	0m0.201s
+user	0m0.197s
+sys	0m0.004s
+2
+
+real	0m0.201s
+user	0m0.197s
+sys	0m0.004s
+3
+
+real	0m0.192s
+user	0m0.188s
+sys	0m0.004s
+4
+
+real	0m0.185s
+user	0m0.185s
+sys	0m0.000s
+5
+
+real	0m0.182s
+user	0m0.178s
+sys	0m0.004s
+6
+
+real	0m0.184s
+user	0m0.180s
+sys	0m0.004s
+7
+
+real	0m0.184s
+user	0m0.180s
+sys	0m0.004s
+8
+
+real	0m0.184s
+user	0m0.180s
+sys	0m0.004s
+9
+
+real	0m0.184s
+user	0m0.184s
+sys	0m0.000s
+10
+
+real	0m0.183s
+user	0m0.179s
+sys	0m0.004s
+01000 /home/sariel/HPP/as3/Assignment3/input_data/ellipse_N_01000.gal 200
+N = 1000
+fileName1 = 'result.gal'
+fileName2 = '/home/sariel/HPP/as3/Assignment3/ref_output_data/ellipse_N_01000_after200steps.gal'
+pos_maxdiff =   0.000000028702
+1
+
+real	0m0.848s
+user	0m0.840s
+sys	0m0.008s
+2
+
+real	0m0.851s
+user	0m0.843s
+sys	0m0.008s
+3
+
+real	0m0.826s
+user	0m0.822s
+sys	0m0.004s
+4
+
+real	0m0.802s
+user	0m0.802s
+sys	0m0.000s
+5
+
+real	0m0.823s
+user	0m0.819s
+sys	0m0.004s
+6
+
+real	0m0.801s
+user	0m0.801s
+sys	0m0.000s
+7
+
+real	0m0.814s
+user	0m0.806s
+sys	0m0.008s
+8
+
+real	0m0.835s
+user	0m0.831s
+sys	0m0.004s
+9
+
+real	0m0.841s
+user	0m0.841s
+sys	0m0.000s
+10
+
+real	0m0.828s
+user	0m0.824s
+sys	0m0.004s
+02000 /home/sariel/HPP/as3/Assignment3/input_data/ellipse_N_02000.gal 200
+N = 2000
+fileName1 = 'result.gal'
+fileName2 = '/home/sariel/HPP/as3/Assignment3/ref_output_data/ellipse_N_02000_after200steps.gal'
+pos_maxdiff =   0.000000018677
+1
+
+real	0m5.173s
+user	0m5.161s
+sys	0m0.012s
+2
+
+real	0m5.073s
+user	0m5.056s
+sys	0m0.016s
+3
+
+real	0m5.078s
+user	0m5.074s
+sys	0m0.004s
+4
+
+real	0m5.124s
+user	0m5.107s
+sys	0m0.016s
+5
+
+real	0m5.148s
+user	0m5.132s
+sys	0m0.016s
+6
+
+real	0m5.139s
+user	0m5.131s
+sys	0m0.008s
+7
+
+real	0m5.156s
+user	0m5.127s
+sys	0m0.028s
+8
+
+real	0m5.141s
+user	0m5.112s
+sys	0m0.028s
+9
+
+real	0m5.118s
+user	0m5.101s
+sys	0m0.016s
+10
+
+real	0m5.098s
+user	0m5.081s
+sys	0m0.016s
+03000 /home/sariel/HPP/as3/Assignment3/input_data/ellipse_N_03000.gal 100
+N = 3000
+fileName1 = 'result.gal'
+fileName2 = '/home/sariel/HPP/as3/Assignment3/ref_output_data/ellipse_N_03000_after100steps.gal'
+pos_maxdiff =   0.000000001882
+1
+
+real	0m6.777s
+user	0m6.728s
+sys	0m0.048s
+2
+
+real	0m6.881s
+user	0m6.852s
+sys	0m0.028s
+3
+
+real	0m5.404s
+user	0m5.367s
+sys	0m0.036s
