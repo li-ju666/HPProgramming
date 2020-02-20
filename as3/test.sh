@@ -5,9 +5,9 @@
 # time ./galsim 100 ellipse_N_00100.gal 200 0.00001 0
 
 #!bin/bash
-gcc -o galsim -O2 galsim.c -lm
-folder_ref="/home/sariel/HPP/as3/Assignment3/ref_output_data/"
-folder_input="/home/sariel/HPP/as3/Assignment3/input_data/"
+gcc -o galsim -O3 galsim.c -lm
+folder_ref="./Assignment3/ref_output_data/"
+folder_input="./Assignment3/input_data/"
 tail=".gal"
 echo =================================================================================== >> report.log
 for file in $(ls ${folder_ref})
