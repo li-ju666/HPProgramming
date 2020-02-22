@@ -115,6 +115,7 @@ int main(int argc, char* argv[]){
 	    /* element.y = 0; */ 
 	    // Forces j exerted to i are added positively
 	    for(int j=0; j<i; j++){
+		// Kahan Summation algorithm used to reduce error, but does not work
 		/* element.x = force_mat[i*pnum+j].x * part_ary[j].mass; */ 
 		/* temp.x = acce.x + element.x; */
 		/* error.x = (temp.x - acce.x) - element.x; */

@@ -3,329 +3,329 @@
 N = 10
 fileName1 = 'result.gal'
 fileName2 = './Assignment3/ref_output_data/ellipse_N_00010_after200steps.gal'
-pos_maxdiff =   0.000003411465
+pos_maxdiff =   0.051025424769
 1
 
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
+real	0m0.004s
+user	0m0.000s
+sys	0m0.004s
 2
 
-real	0m0.001s
-user	0m0.001s
+real	0m0.004s
+user	0m0.004s
 sys	0m0.000s
 3
 
-real	0m0.001s
+real	0m0.004s
 user	0m0.000s
-sys	0m0.001s
+sys	0m0.004s
 4
 
-real	0m0.001s
-user	0m0.001s
+real	0m0.004s
+user	0m0.004s
 sys	0m0.000s
 5
 
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
+real	0m0.004s
+user	0m0.000s
+sys	0m0.004s
 6
 
-real	0m0.001s
-user	0m0.001s
+real	0m0.004s
+user	0m0.004s
 sys	0m0.000s
 7
 
-real	0m0.001s
+real	0m0.004s
 user	0m0.000s
-sys	0m0.001s
+sys	0m0.004s
 8
 
-real	0m0.001s
-user	0m0.001s
+real	0m0.004s
+user	0m0.004s
 sys	0m0.000s
 9
 
-real	0m0.001s
-user	0m0.001s
+real	0m0.004s
+user	0m0.004s
 sys	0m0.000s
 10
 
-real	0m0.005s
+real	0m0.004s
 user	0m0.000s
-sys	0m0.005s
+sys	0m0.004s
 00100 ./Assignment3/input_data/ellipse_N_00100.gal 200
 N = 100
 fileName1 = 'result.gal'
 fileName2 = './Assignment3/ref_output_data/ellipse_N_00100_after200steps.gal'
-pos_maxdiff =   0.000000207193
+Error: strange numbers found in file 'result.gal'.
 1
 
-real	0m0.010s
-user	0m0.010s
+real	0m0.181s
+user	0m0.181s
 sys	0m0.000s
 2
 
-real	0m0.008s
-user	0m0.009s
-sys	0m0.000s
+real	0m0.171s
+user	0m0.168s
+sys	0m0.003s
 3
 
-real	0m0.009s
-user	0m0.006s
-sys	0m0.003s
+real	0m0.165s
+user	0m0.164s
+sys	0m0.000s
 4
 
-real	0m0.009s
-user	0m0.009s
-sys	0m0.000s
+real	0m0.159s
+user	0m0.155s
+sys	0m0.004s
 5
 
-real	0m0.009s
-user	0m0.010s
-sys	0m0.000s
+real	0m0.154s
+user	0m0.150s
+sys	0m0.004s
 6
 
-real	0m0.009s
-user	0m0.006s
-sys	0m0.003s
+real	0m0.154s
+user	0m0.153s
+sys	0m0.000s
 7
 
-real	0m0.009s
-user	0m0.009s
+real	0m0.154s
+user	0m0.154s
 sys	0m0.000s
 8
 
-real	0m0.009s
-user	0m0.009s
+real	0m0.155s
+user	0m0.155s
 sys	0m0.000s
 9
 
-real	0m0.009s
-user	0m0.009s
+real	0m0.155s
+user	0m0.155s
 sys	0m0.000s
 10
 
-real	0m0.009s
-user	0m0.009s
+real	0m0.154s
+user	0m0.154s
 sys	0m0.000s
 00500 ./Assignment3/input_data/ellipse_N_00500.gal 200
 N = 500
 fileName1 = 'result.gal'
 fileName2 = './Assignment3/ref_output_data/ellipse_N_00500_after200steps.gal'
-pos_maxdiff =   0.000000013565
+Error: strange numbers found in file 'result.gal'.
 1
 
-real	0m0.212s
-user	0m0.208s
-sys	0m0.004s
+real	0m2.807s
+user	0m2.807s
+sys	0m0.000s
 2
 
-real	0m0.214s
-user	0m0.213s
-sys	0m0.002s
+real	0m2.815s
+user	0m2.815s
+sys	0m0.000s
 3
 
-real	0m0.214s
-user	0m0.214s
+real	0m2.818s
+user	0m2.817s
 sys	0m0.000s
 4
 
-real	0m0.199s
-user	0m0.199s
+real	0m2.807s
+user	0m2.807s
 sys	0m0.000s
 5
 
-real	0m0.195s
-user	0m0.195s
+real	0m2.805s
+user	0m2.805s
 sys	0m0.000s
 6
 
-real	0m0.194s
-user	0m0.190s
-sys	0m0.004s
+real	0m2.805s
+user	0m2.805s
+sys	0m0.000s
 7
 
-real	0m0.197s
-user	0m0.196s
+real	0m2.804s
+user	0m2.804s
 sys	0m0.000s
 8
 
-real	0m0.196s
-user	0m0.195s
+real	0m2.836s
+user	0m2.836s
 sys	0m0.000s
 9
 
-real	0m0.194s
-user	0m0.190s
-sys	0m0.004s
+real	0m2.831s
+user	0m2.831s
+sys	0m0.000s
 10
 
-real	0m0.194s
-user	0m0.194s
+real	0m2.810s
+user	0m2.810s
 sys	0m0.000s
 01000 ./Assignment3/input_data/ellipse_N_01000.gal 200
 N = 1000
 fileName1 = 'result.gal'
 fileName2 = './Assignment3/ref_output_data/ellipse_N_01000_after200steps.gal'
-pos_maxdiff =   0.000000020298
+Error: strange numbers found in file 'result.gal'.
 1
 
-real	0m0.872s
-user	0m0.863s
-sys	0m0.008s
+real	0m10.545s
+user	0m10.544s
+sys	0m0.000s
 2
 
-real	0m0.889s
-user	0m0.885s
-sys	0m0.004s
+real	0m10.649s
+user	0m10.641s
+sys	0m0.008s
 3
 
-real	0m0.875s
-user	0m0.867s
+real	0m10.559s
+user	0m10.550s
 sys	0m0.008s
 4
 
-real	0m0.871s
-user	0m0.871s
-sys	0m0.000s
+real	0m10.562s
+user	0m10.556s
+sys	0m0.004s
 5
 
-real	0m0.866s
-user	0m0.862s
-sys	0m0.004s
+real	0m10.557s
+user	0m10.557s
+sys	0m0.000s
 6
 
-real	0m0.879s
-user	0m0.875s
-sys	0m0.004s
+real	0m10.535s
+user	0m10.534s
+sys	0m0.000s
 7
 
-real	0m0.869s
-user	0m0.864s
-sys	0m0.004s
+real	0m10.546s
+user	0m10.545s
+sys	0m0.000s
 8
 
-real	0m0.874s
-user	0m0.870s
-sys	0m0.004s
+real	0m10.530s
+user	0m10.530s
+sys	0m0.000s
 9
 
-real	0m0.888s
-user	0m0.884s
-sys	0m0.004s
+real	0m10.893s
+user	0m10.893s
+sys	0m0.000s
 10
 
-real	0m0.874s
-user	0m0.869s
-sys	0m0.004s
+real	0m10.543s
+user	0m10.543s
+sys	0m0.000s
 02000 ./Assignment3/input_data/ellipse_N_02000.gal 200
 N = 2000
 fileName1 = 'result.gal'
 fileName2 = './Assignment3/ref_output_data/ellipse_N_02000_after200steps.gal'
-pos_maxdiff =   0.000000013253
+Error: strange numbers found in file 'result.gal'.
 1
 
-real	0m5.286s
-user	0m5.277s
-sys	0m0.008s
+real	0m40.850s
+user	0m40.849s
+sys	0m0.000s
 2
 
-real	0m5.276s
-user	0m5.256s
-sys	0m0.020s
+real	0m40.817s
+user	0m40.817s
+sys	0m0.000s
 3
 
-real	0m5.664s
-user	0m5.655s
-sys	0m0.008s
+real	0m41.032s
+user	0m41.031s
+sys	0m0.000s
 4
 
-real	0m5.300s
-user	0m5.283s
-sys	0m0.016s
+real	0m41.371s
+user	0m41.370s
+sys	0m0.000s
 5
 
-real	0m5.219s
-user	0m5.202s
-sys	0m0.016s
+real	0m40.875s
+user	0m40.872s
+sys	0m0.000s
 6
 
-real	0m5.336s
-user	0m5.323s
-sys	0m0.012s
+real	0m41.062s
+user	0m41.061s
+sys	0m0.000s
 7
 
-real	0m5.261s
-user	0m5.239s
-sys	0m0.020s
+real	0m42.322s
+user	0m42.317s
+sys	0m0.004s
 8
 
-real	0m5.298s
-user	0m5.282s
-sys	0m0.016s
+real	0m41.049s
+user	0m41.047s
+sys	0m0.000s
 9
 
-real	0m5.292s
-user	0m5.280s
-sys	0m0.012s
+real	0m41.032s
+user	0m41.031s
+sys	0m0.000s
 10
 
-real	0m5.208s
-user	0m5.192s
-sys	0m0.016s
+real	0m41.014s
+user	0m41.005s
+sys	0m0.008s
 03000 ./Assignment3/input_data/ellipse_N_03000.gal 100
 N = 3000
 fileName1 = 'result.gal'
 fileName2 = './Assignment3/ref_output_data/ellipse_N_03000_after100steps.gal'
-pos_maxdiff =   0.000000000312
+Error: strange numbers found in file 'result.gal'.
 1
 
-real	0m6.945s
-user	0m6.912s
-sys	0m0.032s
+real	0m45.854s
+user	0m45.849s
+sys	0m0.004s
 2
 
-real	0m6.956s
-user	0m6.911s
-sys	0m0.044s
+real	0m45.913s
+user	0m45.904s
+sys	0m0.008s
 3
 
-real	0m7.017s
-user	0m6.981s
-sys	0m0.036s
+real	0m45.813s
+user	0m45.812s
+sys	0m0.000s
 4
 
-real	0m6.971s
-user	0m6.930s
-sys	0m0.040s
+real	0m45.772s
+user	0m45.767s
+sys	0m0.004s
 5
 
-real	0m6.941s
-user	0m6.905s
-sys	0m0.036s
+real	0m45.787s
+user	0m45.782s
+sys	0m0.004s
 6
 
-real	0m6.969s
-user	0m6.913s
-sys	0m0.056s
+real	0m45.772s
+user	0m45.771s
+sys	0m0.000s
 7
 
-real	0m6.984s
-user	0m6.944s
-sys	0m0.040s
+real	0m46.318s
+user	0m46.288s
+sys	0m0.000s
 8
 
-real	0m6.950s
-user	0m6.902s
-sys	0m0.048s
+real	0m46.278s
+user	0m46.277s
+sys	0m0.000s
 9
 
-real	0m6.999s
-user	0m6.963s
-sys	0m0.036s
+real	0m47.386s
+user	0m47.381s
+sys	0m0.004s
 10
 
-real	0m6.959s
-user	0m6.919s
-sys	0m0.040s
+real	0m45.833s
+user	0m45.828s
+sys	0m0.004s
