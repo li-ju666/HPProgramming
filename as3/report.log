@@ -3,7 +3,7 @@
 N = 10
 fileName1 = 'result.gal'
 fileName2 = './Assignment3/ref_output_data/ellipse_N_00010_after200steps.gal'
-pos_maxdiff =   0.000003411465
+pos_maxdiff =   0.000000000000
 1
 
 real	0m0.001s
@@ -26,8 +26,8 @@ user	0m0.001s
 sys	0m0.000s
 5
 
-real	0m0.002s
-user	0m0.004s
+real	0m0.001s
+user	0m0.001s
 sys	0m0.000s
 6
 
@@ -46,44 +46,44 @@ user	0m0.001s
 sys	0m0.000s
 9
 
-real	0m0.001s
+real	0m0.005s
 user	0m0.001s
 sys	0m0.000s
 10
 
-real	0m0.001s
-user	0m0.001s
+real	0m0.007s
+user	0m0.008s
 sys	0m0.000s
 00100 ./Assignment3/input_data/ellipse_N_00100.gal 200
 N = 100
 fileName1 = 'result.gal'
 fileName2 = './Assignment3/ref_output_data/ellipse_N_00100_after200steps.gal'
-pos_maxdiff =   0.000000207193
+pos_maxdiff =   0.000000000000
 1
 
-real	0m0.009s
-user	0m0.009s
+real	0m0.008s
+user	0m0.008s
 sys	0m0.000s
 2
 
-real	0m0.008s
-user	0m0.007s
+real	0m0.006s
+user	0m0.006s
 sys	0m0.000s
 3
 
-real	0m0.009s
-user	0m0.006s
-sys	0m0.003s
+real	0m0.007s
+user	0m0.003s
+sys	0m0.004s
 4
 
-real	0m0.008s
-user	0m0.008s
+real	0m0.006s
+user	0m0.006s
 sys	0m0.000s
 5
 
-real	0m0.009s
-user	0m0.008s
-sys	0m0.001s
+real	0m0.006s
+user	0m0.006s
+sys	0m0.000s
 6
 
 real	0m0.007s
@@ -91,2809 +91,241 @@ user	0m0.007s
 sys	0m0.000s
 7
 
-real	0m0.008s
-user	0m0.004s
-sys	0m0.004s
+real	0m0.006s
+user	0m0.006s
+sys	0m0.000s
 8
 
-real	0m0.014s
-user	0m0.014s
+real	0m0.007s
+user	0m0.006s
 sys	0m0.000s
 9
 
-real	0m0.010s
-user	0m0.010s
+real	0m0.007s
+user	0m0.006s
 sys	0m0.000s
 10
 
-real	0m0.008s
-user	0m0.004s
-sys	0m0.004s
+real	0m0.006s
+user	0m0.006s
+sys	0m0.000s
 00500 ./Assignment3/input_data/ellipse_N_00500.gal 200
 N = 500
 fileName1 = 'result.gal'
 fileName2 = './Assignment3/ref_output_data/ellipse_N_00500_after200steps.gal'
-pos_maxdiff =   0.000000013565
+pos_maxdiff =   0.000000005978
 1
 
-real	0m0.215s
-user	0m0.215s
+real	0m0.147s
+user	0m0.147s
 sys	0m0.000s
 2
 
-real	0m0.196s
-user	0m0.195s
+real	0m0.154s
+user	0m0.154s
 sys	0m0.000s
 3
-
-real	0m0.173s
-user	0m0.169s
-sys	0m0.004s
-4
-
-real	0m0.172s
-user	0m0.172s
-sys	0m0.000s
-5
-
-real	0m0.172s
-user	0m0.172s
-sys	0m0.000s
-6
 
 real	0m0.171s
 user	0m0.171s
 sys	0m0.000s
+4
+
+real	0m0.144s
+user	0m0.144s
+sys	0m0.000s
+5
+
+real	0m0.129s
+user	0m0.124s
+sys	0m0.004s
+6
+
+real	0m0.121s
+user	0m0.121s
+sys	0m0.000s
 7
 
-real	0m0.172s
-user	0m0.172s
+real	0m0.121s
+user	0m0.121s
 sys	0m0.000s
 8
 
-real	0m0.173s
-user	0m0.173s
+real	0m0.121s
+user	0m0.121s
 sys	0m0.000s
 9
 
-real	0m0.172s
-user	0m0.172s
-sys	0m0.000s
+real	0m0.122s
+user	0m0.118s
+sys	0m0.004s
 10
 
-real	0m0.171s
-user	0m0.166s
-sys	0m0.004s
+real	0m0.121s
+user	0m0.121s
+sys	0m0.000s
 01000 ./Assignment3/input_data/ellipse_N_01000.gal 200
 N = 1000
 fileName1 = 'result.gal'
 fileName2 = './Assignment3/ref_output_data/ellipse_N_01000_after200steps.gal'
-pos_maxdiff =   0.000000020298
+pos_maxdiff =   0.000000008404
 1
 
-real	0m0.754s
-user	0m0.750s
-sys	0m0.004s
+real	0m0.479s
+user	0m0.479s
+sys	0m0.000s
 2
 
-real	0m0.785s
-user	0m0.777s
-sys	0m0.008s
+real	0m0.482s
+user	0m0.478s
+sys	0m0.004s
 3
 
-real	0m0.765s
-user	0m0.761s
+real	0m0.475s
+user	0m0.471s
 sys	0m0.004s
 4
 
-real	0m0.772s
-user	0m0.772s
+real	0m0.482s
+user	0m0.482s
 sys	0m0.000s
 5
 
-real	0m0.781s
-user	0m0.781s
+real	0m0.479s
+user	0m0.479s
 sys	0m0.000s
 6
 
-real	0m0.773s
-user	0m0.769s
-sys	0m0.004s
+real	0m0.478s
+user	0m0.478s
+sys	0m0.000s
 7
 
-real	0m0.779s
-user	0m0.775s
+real	0m0.480s
+user	0m0.476s
 sys	0m0.004s
 8
 
-real	0m0.781s
-user	0m0.777s
-sys	0m0.004s
+real	0m0.479s
+user	0m0.479s
+sys	0m0.000s
 9
 
-real	0m0.793s
-user	0m0.785s
-sys	0m0.008s
+real	0m0.480s
+user	0m0.480s
+sys	0m0.000s
 10
 
-real	0m0.774s
-user	0m0.765s
-sys	0m0.008s
+real	0m0.484s
+user	0m0.484s
+sys	0m0.000s
 02000 ./Assignment3/input_data/ellipse_N_02000.gal 200
 N = 2000
 fileName1 = 'result.gal'
 fileName2 = './Assignment3/ref_output_data/ellipse_N_02000_after200steps.gal'
-pos_maxdiff =   0.000000013253
+pos_maxdiff =   0.000000005425
 1
 
-real	0m4.860s
-user	0m4.836s
-sys	0m0.024s
+real	0m1.890s
+user	0m1.885s
+sys	0m0.004s
 2
 
-real	0m4.929s
-user	0m4.905s
-sys	0m0.024s
+real	0m1.918s
+user	0m1.918s
+sys	0m0.000s
 3
 
-real	0m4.911s
-user	0m4.886s
-sys	0m0.024s
+real	0m1.909s
+user	0m1.909s
+sys	0m0.000s
 4
 
-real	0m4.967s
-user	0m4.951s
-sys	0m0.016s
+real	0m1.881s
+user	0m1.876s
+sys	0m0.004s
 5
 
-real	0m4.952s
-user	0m4.931s
-sys	0m0.020s
+real	0m1.896s
+user	0m1.895s
+sys	0m0.000s
 6
 
-real	0m4.852s
-user	0m4.828s
-sys	0m0.024s
+real	0m1.908s
+user	0m1.903s
+sys	0m0.004s
 7
 
-real	0m4.880s
-user	0m4.859s
-sys	0m0.020s
+real	0m1.913s
+user	0m1.913s
+sys	0m0.000s
 8
 
-real	0m4.883s
-user	0m4.855s
-sys	0m0.028s
+real	0m1.906s
+user	0m1.906s
+sys	0m0.000s
 9
 
-real	0m4.867s
-user	0m4.851s
-sys	0m0.016s
+real	0m1.908s
+user	0m1.908s
+sys	0m0.000s
 10
 
-real	0m4.869s
-user	0m4.857s
-sys	0m0.012s
+real	0m1.904s
+user	0m1.903s
+sys	0m0.000s
 03000 ./Assignment3/input_data/ellipse_N_03000.gal 100
 N = 3000
 fileName1 = 'result.gal'
 fileName2 = './Assignment3/ref_output_data/ellipse_N_03000_after100steps.gal'
-pos_maxdiff =   0.000000000312
+pos_maxdiff =   0.000000001922
 1
 
-real	0m6.610s
-user	0m6.566s
-sys	0m0.044s
-2
-
-real	0m6.573s
-user	0m6.544s
-sys	0m0.028s
-3
-
-real	0m6.597s
-user	0m6.561s
-sys	0m0.036s
-4
-
-real	0m6.589s
-user	0m6.536s
-sys	0m0.052s
-5
-
-real	0m6.595s
-user	0m6.570s
-sys	0m0.024s
-6
-
-real	0m6.565s
-user	0m6.512s
-sys	0m0.052s
-7
-
-real	0m6.530s
-user	0m6.502s
-sys	0m0.028s
-8
-
-real	0m6.563s
-user	0m6.523s
-sys	0m0.040s
-9
-
-real	0m6.536s
-user	0m6.512s
-sys	0m0.024s
-10
-
-real	0m6.598s
-user	0m6.553s
-sys	0m0.044s
-===================================================================================
-00010 ./Assignment3/input_data/ellipse_N_00010.gal 200
-N = 10
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00010_after200steps.gal'
-pos_maxdiff =   0.007673403155
-1
-
-real	0m0.001s
-user	0m0.001s
+real	0m2.130s
+user	0m2.130s
 sys	0m0.000s
 2
 
-real	0m0.001s
-user	0m0.001s
+real	0m2.124s
+user	0m2.124s
 sys	0m0.000s
 3
 
-real	0m0.001s
-user	0m0.001s
+real	0m2.140s
+user	0m2.139s
 sys	0m0.000s
 4
 
-real	0m0.001s
-user	0m0.001s
+real	0m2.133s
+user	0m2.133s
 sys	0m0.000s
 5
 
-real	0m0.001s
-user	0m0.001s
+real	0m2.145s
+user	0m2.144s
 sys	0m0.000s
 6
 
-real	0m0.001s
-user	0m0.001s
+real	0m2.139s
+user	0m2.139s
 sys	0m0.000s
 7
 
-real	0m0.001s
-user	0m0.001s
+real	0m2.142s
+user	0m2.142s
 sys	0m0.000s
 8
 
-real	0m0.001s
-user	0m0.000s
-sys	0m0.001s
-9
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-10
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-00100 ./Assignment3/input_data/ellipse_N_00100.gal 200
-N = 100
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00100_after200steps.gal'
-pos_maxdiff =   0.017013593247
-1
-
-real	0m0.011s
-user	0m0.011s
-sys	0m0.000s
-2
-
-real	0m0.011s
-user	0m0.011s
-sys	0m0.000s
-3
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-4
-
-real	0m0.028s
-user	0m0.028s
-sys	0m0.000s
-5
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-6
-
-real	0m0.011s
-user	0m0.011s
-sys	0m0.000s
-7
-
-real	0m0.011s
-user	0m0.011s
-sys	0m0.000s
-8
-
-real	0m0.011s
-user	0m0.011s
+real	0m2.110s
+user	0m2.109s
 sys	0m0.000s
 9
 
-real	0m0.011s
-user	0m0.007s
-sys	0m0.004s
-10
-
-real	0m0.011s
-user	0m0.010s
-sys	0m0.000s
-00500 ./Assignment3/input_data/ellipse_N_00500.gal 200
-N = 500
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00500_after200steps.gal'
-pos_maxdiff =   0.010037654049
-1
-
-real	0m0.263s
-user	0m0.263s
-sys	0m0.000s
-2
-
-real	0m0.254s
-user	0m0.250s
-sys	0m0.004s
-3
-
-real	0m0.252s
-user	0m0.251s
-sys	0m0.000s
-4
-
-real	0m0.251s
-user	0m0.246s
-sys	0m0.004s
-5
-
-real	0m0.251s
-user	0m0.251s
-sys	0m0.000s
-6
-
-real	0m0.252s
-user	0m0.248s
-sys	0m0.004s
-7
-
-real	0m0.251s
-user	0m0.246s
-sys	0m0.004s
-8
-
-real	0m0.251s
-user	0m0.251s
-sys	0m0.000s
-9
-
-real	0m0.252s
-user	0m0.247s
-sys	0m0.004s
-10
-
-real	0m0.253s
-user	0m0.249s
-sys	0m0.004s
-01000 ./Assignment3/input_data/ellipse_N_01000.gal 200
-N = 1000
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_01000_after200steps.gal'
-pos_maxdiff =   0.014846214334
-1
-
-real	0m1.116s
-user	0m1.108s
-sys	0m0.008s
-2
-
-real	0m0.226s
-user	0m0.222s
-sys	0m0.004s
-===================================================================================
-00010 ./Assignment3/input_data/ellipse_N_00010.gal 200
-N = 10
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00010_after200steps.gal'
-pos_maxdiff =   0.000003411465
-1
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-2
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-3
-
-real	0m0.001s
-user	0m0.000s
-sys	0m0.001s
-4
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-5
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-6
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-7
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-8
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-9
-
-real	0m0.001s
-user	0m0.001s
+real	0m2.145s
+user	0m2.144s
 sys	0m0.000s
 10
 
-real	0m0.001s
-user	0m0.001s
+real	0m2.142s
+user	0m2.142s
 sys	0m0.000s
-00100 ./Assignment3/input_data/ellipse_N_00100.gal 200
-N = 100
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00100_after200steps.gal'
-pos_maxdiff =   0.000000207193
-1
-
-real	0m0.012s
-user	0m0.008s
-sys	0m0.004s
-2
-
-real	0m0.013s
-user	0m0.013s
-sys	0m0.000s
-3
-
-real	0m0.011s
-user	0m0.011s
-sys	0m0.000s
-4
-
-real	0m0.013s
-user	0m0.013s
-sys	0m0.000s
-5
-
-real	0m0.017s
-user	0m0.017s
-sys	0m0.000s
-6
-
-real	0m0.015s
-user	0m0.015s
-sys	0m0.000s
-7
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-8
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-9
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-10
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-00500 ./Assignment3/input_data/ellipse_N_00500.gal 200
-N = 500
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00500_after200steps.gal'
-pos_maxdiff =   0.000000013565
-1
-
-real	0m0.271s
-user	0m0.267s
-sys	0m0.004s
-2
-
-real	0m0.250s
-user	0m0.250s
-sys	0m0.000s
-3
-
-real	0m0.249s
-user	0m0.245s
-sys	0m0.004s
-4
-
-real	0m0.251s
-user	0m0.243s
-sys	0m0.008s
-5
-
-real	0m0.250s
-user	0m0.250s
-sys	0m0.000s
-6
-
-real	0m0.250s
-user	0m0.250s
-sys	0m0.000s
-7
-
-real	0m0.252s
-user	0m0.252s
-sys	0m0.000s
-8
-
-real	0m0.251s
-user	0m0.247s
-sys	0m0.004s
-9
-
-real	0m0.250s
-user	0m0.250s
-sys	0m0.000s
-10
-
-real	0m0.250s
-user	0m0.250s
-sys	0m0.000s
-01000 ./Assignment3/input_data/ellipse_N_01000.gal 200
-N = 1000
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_01000_after200steps.gal'
-pos_maxdiff =   0.000000020298
-1
-
-real	0m0.593s
-user	0m0.585s
-sys	0m0.008s
-===================================================================================
-00010 ./Assignment3/input_data/ellipse_N_00010.gal 200
-N = 10
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00010_after200steps.gal'
-pos_maxdiff =   0.191355982554
-1
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-2
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-3
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-4
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-5
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-6
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-7
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-8
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-9
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-10
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-00100 ./Assignment3/input_data/ellipse_N_00100.gal 200
-N = 100
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00100_after200steps.gal'
-pos_maxdiff =   0.517999919405
-1
-
-real	0m0.012s
-user	0m0.011s
-sys	0m0.000s
-2
-
-real	0m0.011s
-user	0m0.007s
-sys	0m0.004s
-3
-
-real	0m0.011s
-user	0m0.010s
-sys	0m0.000s
-4
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-5
-
-real	0m0.011s
-user	0m0.011s
-sys	0m0.000s
-6
-
-real	0m0.011s
-user	0m0.011s
-sys	0m0.000s
-7
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.001s
-8
-
-real	0m0.011s
-user	0m0.011s
-sys	0m0.000s
-9
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-10
-
-real	0m0.011s
-user	0m0.011s
-sys	0m0.000s
-00500 ./Assignment3/input_data/ellipse_N_00500.gal 200
-N = 500
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00500_after200steps.gal'
-pos_maxdiff =   0.160348751179
-1
-
-real	0m0.347s
-user	0m0.347s
-sys	0m0.000s
-2
-
-real	0m0.246s
-user	0m0.242s
-sys	0m0.004s
-3
-
-real	0m0.249s
-user	0m0.244s
-sys	0m0.004s
-4
-
-real	0m0.249s
-user	0m0.248s
-sys	0m0.000s
-5
-
-real	0m0.248s
-user	0m0.243s
-sys	0m0.004s
-6
-
-real	0m0.246s
-user	0m0.246s
-sys	0m0.000s
-7
-
-real	0m0.099s
-user	0m0.099s
-sys	0m0.000s
-===================================================================================
-00010 ./Assignment3/input_data/ellipse_N_00010.gal 200
-N = 10
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00010_after200steps.gal'
-pos_maxdiff =   0.000003411465
-1
-
-real	0m0.001s
-user	0m0.000s
-sys	0m0.001s
-2
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-3
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-4
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-5
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-6
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-7
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-8
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-9
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-10
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-00100 ./Assignment3/input_data/ellipse_N_00100.gal 200
-N = 100
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00100_after200steps.gal'
-pos_maxdiff =   0.000000207193
-1
-
-real	0m0.011s
-user	0m0.011s
-sys	0m0.000s
-2
-
-real	0m0.011s
-user	0m0.008s
-sys	0m0.004s
-3
-
-real	0m0.013s
-user	0m0.009s
-sys	0m0.004s
-4
-
-real	0m0.011s
-user	0m0.011s
-sys	0m0.000s
-5
-
-real	0m0.011s
-user	0m0.011s
-sys	0m0.000s
-6
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-7
-
-real	0m0.012s
-user	0m0.011s
-sys	0m0.000s
-8
-
-real	0m0.012s
-user	0m0.011s
-sys	0m0.000s
-9
-
-real	0m0.011s
-user	0m0.011s
-sys	0m0.000s
-10
-
-real	0m0.012s
-user	0m0.011s
-sys	0m0.000s
-00500 ./Assignment3/input_data/ellipse_N_00500.gal 200
-N = 500
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00500_after200steps.gal'
-pos_maxdiff =   0.000000019543
-1
-
-real	0m0.271s
-user	0m0.262s
-sys	0m0.009s
-2
-
-real	0m0.256s
-user	0m0.255s
-sys	0m0.002s
-3
-
-real	0m0.248s
-user	0m0.243s
-sys	0m0.004s
-4
-
-real	0m0.248s
-user	0m0.244s
-sys	0m0.004s
-5
-
-real	0m0.045s
-user	0m0.045s
-sys	0m0.000s
-===================================================================================
-00010 ./Assignment3/input_data/ellipse_N_00010.gal 200
-N = 10
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00010_after200steps.gal'
-pos_maxdiff =   0.000003411465
-1
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-2
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-3
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-4
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.001s
-5
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-6
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-7
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-8
-
-real	0m0.001s
-user	0m0.000s
-sys	0m0.001s
-9
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-10
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-00100 ./Assignment3/input_data/ellipse_N_00100.gal 200
-N = 100
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00100_after200steps.gal'
-pos_maxdiff =   0.000000207193
-1
-
-real	0m0.011s
-user	0m0.011s
-sys	0m0.000s
-2
-
-real	0m0.011s
-user	0m0.011s
-sys	0m0.000s
-3
-
-real	0m0.011s
-user	0m0.011s
-sys	0m0.000s
-4
-
-real	0m0.011s
-user	0m0.008s
-sys	0m0.004s
-5
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-6
-
-real	0m0.011s
-user	0m0.008s
-sys	0m0.004s
-7
-
-real	0m0.011s
-user	0m0.011s
-sys	0m0.000s
-8
-
-real	0m0.011s
-user	0m0.011s
-sys	0m0.000s
-9
-
-real	0m0.011s
-user	0m0.011s
-sys	0m0.000s
-10
-
-real	0m0.012s
-user	0m0.011s
-sys	0m0.000s
-00500 ./Assignment3/input_data/ellipse_N_00500.gal 200
-N = 500
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00500_after200steps.gal'
-pos_maxdiff =   0.000000019543
-1
-
-real	0m0.262s
-user	0m0.262s
-sys	0m0.000s
-2
-
-real	0m0.264s
-user	0m0.264s
-sys	0m0.000s
-3
-
-real	0m0.264s
-user	0m0.264s
-sys	0m0.000s
-4
-
-real	0m0.256s
-user	0m0.256s
-sys	0m0.000s
-5
-
-real	0m0.259s
-user	0m0.254s
-sys	0m0.004s
-6
-
-real	0m0.252s
-user	0m0.252s
-sys	0m0.000s
-7
-
-real	0m0.036s
-user	0m0.036s
-sys	0m0.000s
-===================================================================================
-00010 ./Assignment3/input_data/ellipse_N_00010.gal 200
-N = 10
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00010_after200steps.gal'
-pos_maxdiff =   0.107835498482
-1
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-2
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-3
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-4
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-5
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-6
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-7
-
-real	0m0.001s
-user	0m0.000s
-sys	0m0.001s
-8
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-9
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-10
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-00100 ./Assignment3/input_data/ellipse_N_00100.gal 200
-N = 100
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00100_after200steps.gal'
-pos_maxdiff =   0.109921450529
-1
-
-real	0m0.011s
-user	0m0.011s
-sys	0m0.000s
-2
-
-real	0m0.011s
-user	0m0.011s
-sys	0m0.000s
-3
-
-real	0m0.011s
-user	0m0.010s
-sys	0m0.000s
-4
-
-real	0m0.011s
-user	0m0.010s
-sys	0m0.000s
-5
-
-real	0m0.011s
-user	0m0.011s
-sys	0m0.000s
-6
-
-real	0m0.011s
-user	0m0.010s
-sys	0m0.000s
-7
-
-real	0m0.011s
-user	0m0.007s
-sys	0m0.004s
-8
-
-real	0m0.011s
-user	0m0.011s
-sys	0m0.000s
-9
-
-real	0m0.011s
-user	0m0.011s
-sys	0m0.000s
-10
-
-real	0m0.011s
-user	0m0.011s
-sys	0m0.000s
-00500 ./Assignment3/input_data/ellipse_N_00500.gal 200
-N = 500
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00500_after200steps.gal'
-pos_maxdiff =   0.110906960429
-1
-
-real	0m0.322s
-user	0m0.316s
-sys	0m0.005s
-2
-
-real	0m0.239s
-user	0m0.239s
-sys	0m0.000s
-3
-
-real	0m0.244s
-user	0m0.244s
-sys	0m0.000s
-4
-
-real	0m0.241s
-user	0m0.236s
-sys	0m0.004s
-5
-
-real	0m0.240s
-user	0m0.236s
-sys	0m0.004s
-6
-
-real	0m0.035s
-user	0m0.035s
-sys	0m0.000s
-===================================================================================
-00010 ./Assignment3/input_data/ellipse_N_00010.gal 200
-N = 10
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00010_after200steps.gal'
-pos_maxdiff =   0.000003411465
-1
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-2
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-3
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-4
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-5
-
-real	0m0.001s
-user	0m0.000s
-sys	0m0.001s
-6
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-7
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-8
-
-real	0m0.001s
-user	0m0.000s
-sys	0m0.001s
-9
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-10
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-00100 ./Assignment3/input_data/ellipse_N_00100.gal 200
-N = 100
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00100_after200steps.gal'
-pos_maxdiff =   0.000000207193
-1
-
-real	0m0.011s
-user	0m0.011s
-sys	0m0.000s
-2
-
-real	0m0.011s
-user	0m0.011s
-sys	0m0.000s
-3
-
-real	0m0.011s
-user	0m0.010s
-sys	0m0.000s
-4
-
-real	0m0.011s
-user	0m0.007s
-sys	0m0.004s
-5
-
-real	0m0.011s
-user	0m0.010s
-sys	0m0.000s
-6
-
-real	0m0.011s
-user	0m0.011s
-sys	0m0.000s
-7
-
-real	0m0.010s
-user	0m0.010s
-sys	0m0.000s
-8
-
-real	0m0.010s
-user	0m0.010s
-sys	0m0.000s
-9
-
-real	0m0.011s
-user	0m0.011s
-sys	0m0.000s
-10
-
-real	0m0.010s
-user	0m0.010s
-sys	0m0.000s
-00500 ./Assignment3/input_data/ellipse_N_00500.gal 200
-N = 500
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00500_after200steps.gal'
-pos_maxdiff =   0.000000019543
-1
-
-real	0m0.247s
-user	0m0.247s
-sys	0m0.000s
-2
-
-real	0m0.242s
-user	0m0.238s
-sys	0m0.004s
-3
-
-real	0m0.238s
-user	0m0.238s
-sys	0m0.000s
-4
-
-real	0m0.122s
-user	0m0.122s
-sys	0m0.000s
-===================================================================================
-00010 ./Assignment3/input_data/ellipse_N_00010.gal 200
-N = 10
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00010_after200steps.gal'
-pos_maxdiff =   0.000003411465
-1
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-2
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-3
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-4
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-5
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-6
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-7
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-8
-
-real	0m0.002s
-user	0m0.000s
-sys	0m0.002s
-9
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-10
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-00100 ./Assignment3/input_data/ellipse_N_00100.gal 200
-N = 100
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00100_after200steps.gal'
-pos_maxdiff =   0.000000207193
-1
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-2
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-3
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-4
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-5
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-6
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-7
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-8
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-9
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-10
-
-real	0m0.012s
-user	0m0.011s
-sys	0m0.000s
-00500 ./Assignment3/input_data/ellipse_N_00500.gal 200
-N = 500
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00500_after200steps.gal'
-pos_maxdiff =   0.000000019543
-1
-
-real	0m0.274s
-user	0m0.270s
-sys	0m0.004s
-2
-
-real	0m0.273s
-user	0m0.269s
-sys	0m0.004s
-3
-
-real	0m0.270s
-user	0m0.270s
-sys	0m0.000s
-===================================================================================
-00010 ./Assignment3/input_data/ellipse_N_00010.gal 200
-N = 10
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00010_after200steps.gal'
-pos_maxdiff =   0.000003411465
-1
-
-real	0m0.001s
-user	0m0.000s
-sys	0m0.001s
-2
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-3
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-4
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-5
-
-real	0m0.001s
-user	0m0.000s
-sys	0m0.001s
-6
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-7
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-8
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-9
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-10
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-00100 ./Assignment3/input_data/ellipse_N_00100.gal 200
-N = 100
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00100_after200steps.gal'
-pos_maxdiff =   0.000000207193
-1
-
-real	0m0.013s
-user	0m0.013s
-sys	0m0.000s
-2
-
-real	0m0.013s
-user	0m0.013s
-sys	0m0.000s
-3
-
-real	0m0.013s
-user	0m0.013s
-sys	0m0.000s
-4
-
-real	0m0.013s
-user	0m0.010s
-sys	0m0.003s
-5
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-6
-
-real	0m0.013s
-user	0m0.013s
-sys	0m0.000s
-7
-
-real	0m0.013s
-user	0m0.013s
-sys	0m0.000s
-8
-
-real	0m0.013s
-user	0m0.010s
-sys	0m0.003s
-9
-
-real	0m0.013s
-user	0m0.013s
-sys	0m0.000s
-10
-
-real	0m0.013s
-user	0m0.013s
-sys	0m0.000s
-00500 ./Assignment3/input_data/ellipse_N_00500.gal 200
-N = 500
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00500_after200steps.gal'
-pos_maxdiff =   0.000000019543
-1
-
-real	0m0.269s
-user	0m0.269s
-sys	0m0.000s
-2
-
-real	0m0.270s
-user	0m0.266s
-sys	0m0.004s
-3
-
-real	0m0.065s
-user	0m0.065s
-sys	0m0.000s
-===================================================================================
-00010 ./Assignment3/input_data/ellipse_N_00010.gal 200
-N = 10
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00010_after200steps.gal'
-pos_maxdiff =   0.000003411465
-1
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-2
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-3
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-4
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-5
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-6
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-7
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-8
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-9
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-10
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-00100 ./Assignment3/input_data/ellipse_N_00100.gal 200
-N = 100
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00100_after200steps.gal'
-pos_maxdiff =   0.000000207193
-1
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-2
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-3
-
-real	0m0.013s
-user	0m0.013s
-sys	0m0.000s
-4
-
-real	0m0.014s
-user	0m0.014s
-sys	0m0.000s
-5
-
-real	0m0.013s
-user	0m0.013s
-sys	0m0.000s
-6
-
-real	0m0.013s
-user	0m0.013s
-sys	0m0.000s
-7
-
-real	0m0.019s
-user	0m0.019s
-sys	0m0.000s
-8
-
-real	0m0.016s
-user	0m0.016s
-sys	0m0.000s
-9
-
-real	0m0.016s
-user	0m0.016s
-sys	0m0.000s
-10
-
-real	0m0.013s
-user	0m0.013s
-sys	0m0.000s
-00500 ./Assignment3/input_data/ellipse_N_00500.gal 200
-N = 500
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00500_after200steps.gal'
-pos_maxdiff =   0.000000019543
-1
-
-real	0m0.336s
-user	0m0.334s
-sys	0m0.004s
-2
-
-real	0m0.286s
-user	0m0.284s
-sys	0m0.002s
-3
-
-real	0m0.101s
-user	0m0.096s
-sys	0m0.004s
-===================================================================================
-00010 ./Assignment3/input_data/ellipse_N_00010.gal 200
-N = 10
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00010_after200steps.gal'
-pos_maxdiff =   0.000003411465
-1
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-2
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-3
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-4
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-5
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-6
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-7
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-8
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-9
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-10
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-00100 ./Assignment3/input_data/ellipse_N_00100.gal 200
-N = 100
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00100_after200steps.gal'
-pos_maxdiff =   0.000000207193
-1
-
-real	0m0.013s
-user	0m0.012s
-sys	0m0.000s
-2
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-3
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-4
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-5
-
-real	0m0.013s
-user	0m0.012s
-sys	0m0.000s
-6
-
-real	0m0.012s
-user	0m0.008s
-sys	0m0.004s
-7
-
-real	0m0.014s
-user	0m0.010s
-sys	0m0.004s
-8
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-9
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-10
-
-real	0m0.012s
-user	0m0.011s
-sys	0m0.000s
-00500 ./Assignment3/input_data/ellipse_N_00500.gal 200
-N = 500
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00500_after200steps.gal'
-pos_maxdiff =   0.000000019543
-1
-
-real	0m0.271s
-user	0m0.272s
-sys	0m0.000s
-2
-
-real	0m0.275s
-user	0m0.275s
-sys	0m0.000s
-3
-
-real	0m0.275s
-user	0m0.275s
-sys	0m0.000s
-4
-
-real	0m0.273s
-user	0m0.269s
-sys	0m0.004s
-5
-
-real	0m0.273s
-user	0m0.269s
-sys	0m0.004s
-6
-
-real	0m0.275s
-user	0m0.271s
-sys	0m0.004s
-7
-
-real	0m0.277s
-user	0m0.277s
-sys	0m0.000s
-8
-
-real	0m0.274s
-user	0m0.270s
-sys	0m0.004s
-9
-
-real	0m0.275s
-user	0m0.274s
-sys	0m0.000s
-10
-
-real	0m0.105s
-user	0m0.101s
-sys	0m0.004s
-===================================================================================
-00010 ./Assignment3/input_data/ellipse_N_00010.gal 200
-N = 10
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00010_after200steps.gal'
-pos_maxdiff =   0.801215239208
-1
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-2
-
-real	0m0.001s
-user	0m0.000s
-sys	0m0.001s
-3
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-4
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-5
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-6
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-7
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-8
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-9
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-10
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-00100 ./Assignment3/input_data/ellipse_N_00100.gal 200
-N = 100
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00100_after200steps.gal'
-pos_maxdiff =   0.278615375966
-1
-
-real	0m0.013s
-user	0m0.013s
-sys	0m0.000s
-2
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-3
-
-real	0m0.012s
-user	0m0.011s
-sys	0m0.000s
-4
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-5
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-6
-
-real	0m0.012s
-user	0m0.011s
-sys	0m0.000s
-7
-
-real	0m0.016s
-user	0m0.012s
-sys	0m0.004s
-8
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-9
-
-real	0m0.013s
-user	0m0.013s
-sys	0m0.000s
-10
-
-real	0m0.013s
-user	0m0.012s
-sys	0m0.001s
-00500 ./Assignment3/input_data/ellipse_N_00500.gal 200
-N = 500
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00500_after200steps.gal'
-pos_maxdiff =   0.075804788245
-1
-
-real	0m0.260s
-user	0m0.260s
-sys	0m0.000s
-2
-
-real	0m0.251s
-user	0m0.250s
-sys	0m0.000s
-3
-
-real	0m0.010s
-user	0m0.003s
-sys	0m0.007s
-===================================================================================
-00010 ./Assignment3/input_data/ellipse_N_00010.gal 200
-N = 10
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00010_after200steps.gal'
-pos_maxdiff =   0.000003411465
-1
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-2
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-3
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-4
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-5
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-6
-
-real	0m0.001s
-user	0m0.000s
-sys	0m0.001s
-7
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-8
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-9
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-10
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-00100 ./Assignment3/input_data/ellipse_N_00100.gal 200
-N = 100
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00100_after200steps.gal'
-pos_maxdiff =   0.000000207193
-1
-
-real	0m0.012s
-user	0m0.008s
-sys	0m0.004s
-2
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-3
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-4
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-5
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-6
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-7
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-8
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-9
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-10
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-00500 ./Assignment3/input_data/ellipse_N_00500.gal 200
-N = 500
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00500_after200steps.gal'
-pos_maxdiff =   0.000000019543
-1
-
-real	0m0.289s
-user	0m0.288s
-sys	0m0.000s
-2
-
-real	0m0.115s
-user	0m0.115s
-sys	0m0.000s
-===================================================================================
-00010 ./Assignment3/input_data/ellipse_N_00010.gal 200
-N = 10
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00010_after200steps.gal'
-pos_maxdiff =   0.000003411465
-1
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-2
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-3
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-4
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-5
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-6
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-7
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-8
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-9
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-10
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-00100 ./Assignment3/input_data/ellipse_N_00100.gal 200
-N = 100
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00100_after200steps.gal'
-pos_maxdiff =   0.000000207193
-1
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-2
-
-real	0m0.013s
-user	0m0.013s
-sys	0m0.000s
-3
-
-real	0m0.013s
-user	0m0.013s
-sys	0m0.000s
-4
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-5
-
-real	0m0.013s
-user	0m0.013s
-sys	0m0.000s
-6
-
-real	0m0.013s
-user	0m0.014s
-sys	0m0.000s
-7
-
-real	0m0.013s
-user	0m0.010s
-sys	0m0.003s
-8
-
-real	0m0.015s
-user	0m0.014s
-sys	0m0.000s
-9
-
-real	0m0.013s
-user	0m0.013s
-sys	0m0.000s
-10
-
-real	0m0.013s
-user	0m0.013s
-sys	0m0.000s
-00500 ./Assignment3/input_data/ellipse_N_00500.gal 200
-N = 500
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00500_after200steps.gal'
-pos_maxdiff =   0.000000019543
-1
-
-real	0m0.329s
-user	0m0.325s
-sys	0m0.004s
-2
-
-real	0m0.336s
-user	0m0.336s
-sys	0m0.000s
-3
-
-real	0m0.271s
-user	0m0.267s
-sys	0m0.004s
-4
-
-real	0m0.222s
-user	0m0.218s
-sys	0m0.004s
-===================================================================================
-00010 ./Assignment3/input_data/ellipse_N_00010.gal 200
-N = 10
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00010_after200steps.gal'
-pos_maxdiff =   0.000003411465
-1
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-2
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-3
-
-real	0m0.001s
-user	0m0.000s
-sys	0m0.001s
-4
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-5
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-6
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.001s
-7
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-8
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-9
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-10
-
-real	0m0.001s
-user	0m0.000s
-sys	0m0.001s
-00100 ./Assignment3/input_data/ellipse_N_00100.gal 200
-N = 100
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00100_after200steps.gal'
-pos_maxdiff =   0.000000207193
-1
-
-real	0m0.013s
-user	0m0.006s
-sys	0m0.007s
-2
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-3
-
-real	0m0.013s
-user	0m0.012s
-sys	0m0.000s
-4
-
-real	0m0.013s
-user	0m0.013s
-sys	0m0.000s
-5
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-6
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-7
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-8
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-9
-
-real	0m0.013s
-user	0m0.013s
-sys	0m0.000s
-10
-
-real	0m0.015s
-user	0m0.015s
-sys	0m0.001s
-00500 ./Assignment3/input_data/ellipse_N_00500.gal 200
-N = 500
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00500_after200steps.gal'
-pos_maxdiff =   0.000000019543
-1
-
-real	0m0.276s
-user	0m0.276s
-sys	0m0.000s
-2
-
-real	0m0.276s
-user	0m0.276s
-sys	0m0.000s
-3
-
-real	0m0.276s
-user	0m0.272s
-sys	0m0.004s
-4
-
-real	0m0.152s
-user	0m0.147s
-sys	0m0.004s
-===================================================================================
-00010 ./Assignment3/input_data/ellipse_N_00010.gal 200
-N = 10
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00010_after200steps.gal'
-pos_maxdiff =   0.000003411465
-1
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-2
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-3
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-4
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-5
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-6
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-7
-
-real	0m0.001s
-user	0m0.000s
-sys	0m0.001s
-8
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-9
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-10
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-00100 ./Assignment3/input_data/ellipse_N_00100.gal 200
-N = 100
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00100_after200steps.gal'
-pos_maxdiff =   0.000000207193
-1
-
-real	0m0.014s
-user	0m0.014s
-sys	0m0.001s
-2
-
-real	0m0.015s
-user	0m0.011s
-sys	0m0.004s
-3
-
-real	0m0.013s
-user	0m0.013s
-sys	0m0.000s
-4
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-5
-
-real	0m0.027s
-user	0m0.027s
-sys	0m0.000s
-6
-
-real	0m0.030s
-user	0m0.022s
-sys	0m0.008s
-7
-
-real	0m0.026s
-user	0m0.026s
-sys	0m0.000s
-8
-
-real	0m0.020s
-user	0m0.020s
-sys	0m0.000s
-9
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-10
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-00500 ./Assignment3/input_data/ellipse_N_00500.gal 200
-N = 500
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00500_after200steps.gal'
-pos_maxdiff =   0.000000019543
-1
-
-real	0m0.272s
-user	0m0.271s
-sys	0m0.000s
-2
-
-real	0m0.272s
-user	0m0.268s
-sys	0m0.004s
-3
-
-real	0m0.272s
-user	0m0.272s
-sys	0m0.000s
-4
-
-real	0m0.228s
-user	0m0.228s
-sys	0m0.000s
-===================================================================================
-00010 ./Assignment3/input_data/ellipse_N_00010.gal 200
-N = 10
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00010_after200steps.gal'
-pos_maxdiff =   0.000003411465
-1
-
-real	0m0.001s
-user	0m0.000s
-sys	0m0.001s
-2
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-3
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-4
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-5
-
-real	0m0.001s
-user	0m0.000s
-sys	0m0.001s
-6
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-7
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-8
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-9
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-10
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-00100 ./Assignment3/input_data/ellipse_N_00100.gal 200
-N = 100
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00100_after200steps.gal'
-pos_maxdiff =   0.000000207193
-1
-
-real	0m0.013s
-user	0m0.013s
-sys	0m0.000s
-2
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-3
-
-real	0m0.014s
-user	0m0.014s
-sys	0m0.000s
-4
-
-real	0m0.013s
-user	0m0.009s
-sys	0m0.004s
-5
-
-real	0m0.013s
-user	0m0.013s
-sys	0m0.000s
-6
-
-real	0m0.013s
-user	0m0.013s
-sys	0m0.000s
-7
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-8
-
-real	0m0.013s
-user	0m0.013s
-sys	0m0.000s
-9
-
-real	0m0.013s
-user	0m0.013s
-sys	0m0.000s
-10
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-00500 ./Assignment3/input_data/ellipse_N_00500.gal 200
-N = 500
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00500_after200steps.gal'
-pos_maxdiff =   0.000000019543
-1
-
-real	0m0.271s
-user	0m0.271s
-sys	0m0.000s
-2
-
-real	0m0.270s
-user	0m0.270s
-sys	0m0.000s
-3
-
-real	0m0.224s
-user	0m0.220s
-sys	0m0.004s
-===================================================================================
-00010 ./Assignment3/input_data/ellipse_N_00010.gal 200
-N = 10
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00010_after200steps.gal'
-pos_maxdiff =   0.000003411465
-1
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-2
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-3
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-4
-
-real	0m0.005s
-user	0m0.005s
-sys	0m0.000s
-5
-
-real	0m0.002s
-user	0m0.001s
-sys	0m0.000s
-6
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.001s
-7
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-8
-
-real	0m0.001s
-user	0m0.000s
-sys	0m0.001s
-9
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-10
-
-real	0m0.001s
-user	0m0.001s
-sys	0m0.000s
-00100 ./Assignment3/input_data/ellipse_N_00100.gal 200
-N = 100
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00100_after200steps.gal'
-pos_maxdiff =   0.000000207193
-1
-
-real	0m0.014s
-user	0m0.014s
-sys	0m0.000s
-2
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-3
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-4
-
-real	0m0.012s
-user	0m0.008s
-sys	0m0.004s
-5
-
-real	0m0.011s
-user	0m0.011s
-sys	0m0.000s
-6
-
-real	0m0.012s
-user	0m0.012s
-sys	0m0.000s
-7
-
-real	0m0.011s
-user	0m0.011s
-sys	0m0.000s
-8
-
-real	0m0.023s
-user	0m0.023s
-sys	0m0.000s
-9
-
-real	0m0.014s
-user	0m0.013s
-sys	0m0.001s
-10
-
-real	0m0.013s
-user	0m0.013s
-sys	0m0.001s
-00500 ./Assignment3/input_data/ellipse_N_00500.gal 200
-N = 500
-fileName1 = 'result.gal'
-fileName2 = './Assignment3/ref_output_data/ellipse_N_00500_after200steps.gal'
-pos_maxdiff =   0.000000019543
-1
-
-real	0m0.293s
-user	0m0.289s
-sys	0m0.005s
-2
-
-real	0m0.298s
-user	0m0.298s
-sys	0m0.000s
-3
-
-real	0m0.256s
-user	0m0.251s
-sys	0m0.004s

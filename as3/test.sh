@@ -5,7 +5,7 @@
 # time ./galsim 100 ellipse_N_00100.gal 200 0.00001 0
 
 #!bin/bash
-gcc -o galsim galsim.c -lm -Ofast
+#gcc -o galsim galsim.c -lm -Ofast
 folder_ref="./Assignment3/ref_output_data/"
 folder_input="./Assignment3/input_data/"
 tail=".gal"

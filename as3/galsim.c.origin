@@ -22,7 +22,7 @@ int main(int argc, char* argv[]){
     }
     // Assign parameters to variables 
     int pnum = atoi(argv[1]), nsteps = atoi(argv[3]); 
-    float delta_t = atof(argv[4]); 
+    double delta_t = atof(argv[4]); 
     char graphic = atoi(argv[5]); 
     particle* part_ary = malloc(sizeof(particle)*pnum); 
     
@@ -75,7 +75,7 @@ int main(int argc, char* argv[]){
 		// Calculate the value of non-vector part
 		
 		/* temp = -CONST_G * part_ary[i].mass * part_ary[j].mass / pow((rij + EPSILON), 3); */ 
-		temp_coeffi = -CONST_G * rij * rij *rij;
+		temp_coeffi = -CONST_G * rij * rij * rij;
 		/* printf("Now temp coefficient is: %f and rij is: %f. \n", temp_coeffi, rij); */ 	
 		/* temp_coeffi = -CONST_G / (rij * (x_cord + y_cord) + 3 * rij * EPSILON * */ 
 		/*     EPSILON + 3 * (x_cord + y_cord) * EPSILON + EPSILON * EPSILON * EPSILON); */ 
@@ -100,7 +100,7 @@ int main(int argc, char* argv[]){
 
 #if 1
 	// Update attributes of particles in part_ary
-	vector2d acce; //, error, temp, element; 
+	vector2d acce;//, error, temp, element; 
 	for(int i=0; i<pnum; i++){
 	    // Cummulate the acceleration sum of particle i exerted by other particles
 	    acce.x = 0;
@@ -109,22 +109,20 @@ int main(int argc, char* argv[]){
 	    /* error.y = 0; */ 
 	    /* temp.x = 0; */ 
 	    /* temp.y = 0; */ 
-	    /* acc2.x = 0; */ 
-	    /* acc2.y = 0; */ 
 	    /* element.x = 0; */ 
 	    /* element.y = 0; */ 
 	    // Forces j exerted to i are added positively
 	    for(int j=0; j<i; j++){
 		// Kahan Summation algorithm used to reduce error, but does not work
-		/* element.x = force_mat[i*pnum+j].x * part_ary[j].mass; */ 
+		/* element.x = force_mat[i*pnum+j].x * part_ary[j].mass - error.x; */ 
 		/* temp.x = acce.x + element.x; */
 		/* error.x = (temp.x - acce.x) - element.x; */
-		/* acce.x = temp.x - error.x; */ 
+		/* acce.x = temp.x; */ 
 		
-		/* element.y = force_mat[i*pnum+j].y * part_ary[j].mass; */ 
+		/* element.y = force_mat[i*pnum+j].y * part_ary[j].mass - error.y; */ 
 		/* temp.y = acce.y + element.y; */ 
 		/* error.y = (temp.y - acce.y) - element.y; */ 
-		/* acce.y = temp.y - error.y; */ 
+		/* acce.y = temp.y; */ 
 
 		acce.x += force_mat[i*pnum+j].x*part_ary[j].mass; 
 		acce.y += force_mat[i*pnum+j].y*part_ary[j].mass;
@@ -137,15 +135,15 @@ int main(int argc, char* argv[]){
 		acce.x -= force_mat[j*pnum+i].x*part_ary[j].mass; 
 		acce.y -= force_mat[j*pnum+i].y*part_ary[j].mass; 
 
-		/* element.x = - force_mat[j*pnum+i].x * part_ary[j].mass; */
+		/* element.x = - force_mat[j*pnum+i].x * part_ary[j].mass - error.x; */
 		/* temp.x = acce.x + element.x; */ 
 		/* error.x = (temp.x - acce.x) - element.x; */ 
-		/* acce.x = temp.x - error.x; */ 
+		/* acce.x = temp.x; */ 
 		
-		/* element.y = - force_mat[j*pnum+i].y * part_ary[j].mass; */ 
+		/* element.y = - force_mat[j*pnum+i].y * part_ary[j].mass - error.y; */ 
 		/* temp.y = acce.y + element.y; */ 
 		/* error.y = (temp.y - acce.y) - element.y; */ 
-		/* acce.y = temp.y - error.y; */ 
+		/* acce.y = temp.y; */ 
 	    }
 	    /* if(step == 1 ){ */
 	    /* printf("ACC.x: %.20f. \n", acc2.x); */ 

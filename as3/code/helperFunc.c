@@ -18,9 +18,10 @@ inline void simplecticEuler(int N, int timeSteps, double delta_t, double mass[],
     {
 
         //Copy the previous time-step
-        memcpy(xOldPos, xPos, N);
-        memcpy(yOldPos, yPos, N);
-
+		for (int i=0; i<N; i++){
+			xOldPos[i] = xPos[i]; 
+			yOldPos[i] = yPos[i]; 
+		}
         //1st loop over the particles
         for (size_t i = 0; i < N; i++)
         {
@@ -32,7 +33,9 @@ inline void simplecticEuler(int N, int timeSteps, double delta_t, double mass[],
                 if (j == i)
                     continue;
 
-                c1 = mass[j] / pow(sqrt(pow(xOldPos[i] - xOldPos[j], 2) + pow(yOldPos[i] - yOldPos[j], 2)) + eps0, 3);
+                c1 = 1 / (sqrt((xOldPos[i] - xOldPos[j])*(xOldPos[i]-xOldPos[j]) + 
+					(yOldPos[i] - yOldPos[j])*(yOldPos[i]-yOldPos[j])) + eps0);
+		c1 = mass[j]/c1*c1*c1; 
                 sumx += c1 * (xOldPos[i] - xOldPos[j]);
                 sumy += c1 * (yOldPos[i] - yOldPos[j]);
             }
