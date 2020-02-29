@@ -730,3 +730,170 @@ sys	0m0.000s
 real	0m2.154s
 user	0m2.154s
 sys	0m0.000s
+===================================================================================
+00010 ./Assignment3/input_data/ellipse_N_00010.gal 200
+N = 10
+fileName1 = 'result.gal'
+fileName2 = './Assignment3/ref_output_data/ellipse_N_00010_after200steps.gal'
+pos_maxdiff =   0.000000000000
+1
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+2
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+3
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.001s
+4
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+5
+
+real	0m0.002s
+user	0m0.002s
+sys	0m0.001s
+6
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+7
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+8
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+9
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+10
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+00100 ./Assignment3/input_data/ellipse_N_00100.gal 200
+N = 100
+fileName1 = 'result.gal'
+fileName2 = './Assignment3/ref_output_data/ellipse_N_00100_after200steps.gal'
+pos_maxdiff =   0.000000000000
+1
+
+real	0m0.007s
+user	0m0.007s
+sys	0m0.000s
+2
+
+real	0m0.006s
+user	0m0.006s
+sys	0m0.000s
+3
+
+real	0m0.007s
+user	0m0.007s
+sys	0m0.000s
+4
+
+real	0m0.006s
+user	0m0.006s
+sys	0m0.000s
+5
+
+real	0m0.006s
+user	0m0.006s
+sys	0m0.000s
+6
+
+real	0m0.006s
+user	0m0.006s
+sys	0m0.000s
+7
+
+real	0m0.007s
+user	0m0.006s
+sys	0m0.000s
+8
+
+real	0m0.006s
+user	0m0.006s
+sys	0m0.000s
+9
+
+real	0m0.007s
+user	0m0.003s
+sys	0m0.004s
+10
+
+real	0m0.023s
+user	0m0.018s
+sys	0m0.005s
+00500 ./Assignment3/input_data/ellipse_N_00500.gal 200
+N = 500
+fileName1 = 'result.gal'
+fileName2 = './Assignment3/ref_output_data/ellipse_N_00500_after200steps.gal'
+pos_maxdiff =   0.000000000000
+1
+
+real	0m0.123s
+user	0m0.122s
+sys	0m0.000s
+2
+
+real	0m0.123s
+user	0m0.123s
+sys	0m0.000s
+3
+
+real	0m0.124s
+user	0m0.124s
+sys	0m0.000s
+4
+
+real	0m0.126s
+user	0m0.126s
+sys	0m0.000s
+5
+
+real	0m0.124s
+user	0m0.124s
+sys	0m0.000s
+6
+
+real	0m0.126s
+user	0m0.126s
+sys	0m0.000s
+7
+
+real	0m0.123s
+user	0m0.123s
+sys	0m0.000s
+8
+
+real	0m0.120s
+user	0m0.120s
+sys	0m0.000s
+9
+
+real	0m0.121s
+user	0m0.121s
+sys	0m0.000s
+10
+
+real	0m0.121s
+user	0m0.121s
+sys	0m0.000s
+01000 ./Assignment3/input_data/ellipse_N_01000.gal 200

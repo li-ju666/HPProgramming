@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <math.h>
 
-#define CONST_G (double)100.0f/pnum
-#define EPSILON (double)0.001
+#define CONST_G 100.0f/pnum
+#define EPSILON 0.001
 
 typedef struct particles{
     double position_x, position_y, mass, velocity_x, velocity_y, brightness; 
