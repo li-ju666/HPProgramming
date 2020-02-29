@@ -1,13 +1,13 @@
 C := gcc
 
-print: main.o qtree.o
-	$(C) -o print main.o qtree.o
+test: main.o qtree.o
+	$(C) -o test main.o qtree.o
 
-main.o: main.c treedef.h
+main.o: main.c structdef.h
 	$(C) -c main.c
 
-qtree.0: qtree.c
+qtree.0: qtree.c structdef.h
 	$(C) -c qtree.c
 
 clean: 
-	rm -f print qtree.o main.o
+	rm -f test qtree.o main.o
