@@ -1,3 +1,5 @@
+#define EPS 0.001
+
 typedef struct node node; 
 
 typedef struct vec2d{
@@ -22,3 +24,5 @@ typedef struct particle{
 
 void insert(node**, double, vec2d, vec2d, vec2d);
 void print(node*, int); 
+void release(node*);
+void acccal(node*, particle*, vec2d*, int); 

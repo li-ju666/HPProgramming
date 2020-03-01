@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 #include "structdef.h"
 
+#define THETA (double)0.2
 typedef struct checkresult{
     int drct; 
     vec2d topleft, botright; 
@@ -53,7 +55,8 @@ checkresult check(node** cnode, vec2d pos){
     double width = ((**cnode).botright.x - (**cnode).topleft.x)/2; 
     // Check if given position is out of space
     if(pos.x > (**cnode).botright.x || pos.x < (**cnode).topleft.x || pos.y > (**cnode).botright.y || pos.y < (**cnode).topleft.y){
-	printf("Error: given particle out of space! \n"); 
+	printf("Error: given particle out of space! \n");
+	printf("%.f, %.f. \n", pos.x, pos.y); 
 	exit(1);  
     }
     if(pos.x < ((**cnode).topleft.x + width) && pos.y < ((**cnode).topleft.y + width)){
@@ -85,6 +88,18 @@ checkresult check(node** cnode, vec2d pos){
     return result;
 }
 
+void release(node* cnode){
+    if(cnode != NULL){
+	if((*cnode).is_leaf == 0){
+	    for(int i=0; i<4; i++){
+		release((*cnode).children[i]); 
+	    }
+	}
+	free(cnode); 
+    }
+}
+
+
 void print(node* cnode, int depth){
     for(int i=0; i<depth; i++){
 	printf("  "); 
@@ -99,3 +114,22 @@ void print(node* cnode, int depth){
 	}
     }
 }
+
+void acccal(node* cnode, particle* p, vec2d* acce, int pnum){
+    if(cnode != NULL){
+	double distance = sqrt(((*cnode).pos.x - (*p).pos.x) * ((*cnode).pos.x - (*p).pos.x) + 
+			       ((*cnode).pos.y - (*p).pos.y) * ((*cnode).pos.y - (*p).pos.y)); 
+	if(distance < 1e-10){return; }
+	double theta = ((*cnode).topleft.x - (*cnode).botright.x)/distance; 
+	if(theta <= THETA || (*cnode).is_leaf == 1){
+	    (*acce).x += -(double)100.0/pnum * (*cnode).mass / ((distance+EPS)*(distance+EPS)*(distance+EPS)) * ((*p).pos.x - (*cnode).pos.x); 
+	    (*acce).y += -(double)100.0/pnum * (*cnode).mass / ((distance+EPS)*(distance+EPS)*(distance+EPS)) * ((*p).pos.y - (*cnode).pos.y); 
+	}
+	else{
+	    for(int i=0; i<4; i++){
+		acccal((*cnode).children[i], p, acce, pnum); 
+	    }
+	}
+    }
+}
+
