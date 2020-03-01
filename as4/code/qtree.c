@@ -3,7 +3,7 @@
 #include <math.h>
 #include "structdef.h"
 
-#define THETA (double)0.2
+#define THETA (double)0.01
 typedef struct checkresult{
     int drct; 
     vec2d topleft, botright; 
@@ -119,11 +119,16 @@ void acccal(node* cnode, particle* p, vec2d* acce, int pnum){
     if(cnode != NULL){
 	double distance = sqrt(((*cnode).pos.x - (*p).pos.x) * ((*cnode).pos.x - (*p).pos.x) + 
 			       ((*cnode).pos.y - (*p).pos.y) * ((*cnode).pos.y - (*p).pos.y)); 
-	if(distance < 1e-10){return; }
-	double theta = ((*cnode).topleft.x - (*cnode).botright.x)/distance; 
+	/* printf("Now distance is: %.10f. \n", distance); */ 
+	if(distance < 1e-10){
+	    /* printf("The same particle! \n"); */ 
+	    return; 
+	}
+	double theta = ((*cnode).botright.x - (*cnode).topleft.x)/distance; 
+	/* printf("Now theta is: %.10f. \n", theta); */ 
 	if(theta <= THETA || (*cnode).is_leaf == 1){
-	    (*acce).x += -(double)100.0/pnum * (*cnode).mass / ((distance+EPS)*(distance+EPS)*(distance+EPS)) * ((*p).pos.x - (*cnode).pos.x); 
-	    (*acce).y += -(double)100.0/pnum * (*cnode).mass / ((distance+EPS)*(distance+EPS)*(distance+EPS)) * ((*p).pos.y - (*cnode).pos.y); 
+	    (*acce).x += -((double)100.0)/pnum * (*cnode).mass / ((distance+EPS)*(distance+EPS)*(distance+EPS)) * ((*p).pos.x - (*cnode).pos.x); 
+	    (*acce).y += -((double)100.0)/pnum * (*cnode).mass / ((distance+EPS)*(distance+EPS)*(distance+EPS)) * ((*p).pos.y - (*cnode).pos.y); 
 	}
 	else{
 	    for(int i=0; i<4; i++){

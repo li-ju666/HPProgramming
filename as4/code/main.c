@@ -27,12 +27,12 @@ int main(int argc, char* argv[]){
 	return 1; 
     }
 
-
+#if 0
     for(int i=0; i<pnum; i++){
 	printf("The %dth particle: position-(%.3f, %.3f), mass-%.3f. \n", 
 		i, part_ary[i].pos.x, part_ary[i].pos.y, part_ary[i].mass);
     }
-
+#endif
 
     node* root = NULL; 
     /* for(int i=0; i<pnum; i++){ */
@@ -53,7 +53,8 @@ int main(int argc, char* argv[]){
 	
 	for(int i=0; i<pnum; i++){
 	    vec2d acce = {0,0}; 
-	    acccal(root, &part_ary[i], &acce, pnum); 
+	    acccal(root, &part_ary[i], &acce, pnum);
+	    /* printf("Acceleration: (%.10f, %.10f). \n", acce.x, acce.y); */  
 	    part_ary[i].vel.x += acce.x * delta_t; 
 	    part_ary[i].vel.y += acce.y * delta_t; 
 	    part_ary[i].pos.x += part_ary[i].vel.x * delta_t;
