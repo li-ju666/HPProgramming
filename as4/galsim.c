@@ -80,6 +80,7 @@ int main(int argc, char* argv[]){
 		acc.y += temp_coeffi * (oldpos[i].y - oldpos[j].y);
 	    }
 	    // To update velocity information
+	    /* printf("Acceleration: (%.10f, %.10f). \n", acc.x, acc.y); */ 
 	    part_ary[i].velocity_x += -CONST_G * acc.x * delta_t;
 	    part_ary[i].velocity_y += -CONST_G * acc.y * delta_t; 	
 	    // To update position information
@@ -89,7 +90,7 @@ int main(int argc, char* argv[]){
     }
 
 #if 1
-    fp = fopen("result.gal", "w"); 
+    fp = fopen("refresult.gal", "w"); 
     if(fwrite(part_ary, pnum, sizeof(particle), fp) == 0){
 	printf("Error: Write file failed! \n"); 
 	return 1; 	

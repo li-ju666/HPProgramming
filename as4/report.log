@@ -897,3 +897,210 @@ real	0m0.121s
 user	0m0.121s
 sys	0m0.000s
 01000 ./Assignment3/input_data/ellipse_N_01000.gal 200
+===================================================================================
+00010 ./Assignment3/input_data/ellipse_N_00010.gal 200
+N = 10
+fileName1 = 'result.gal'
+fileName2 = './Assignment3/ref_output_data/ellipse_N_00010_after200steps.gal'
+pos_maxdiff =   0.000000000000
+1
+
+real	0m0.137s
+user	0m0.013s
+sys	0m0.008s
+2
+
+real	0m0.024s
+user	0m0.014s
+sys	0m0.003s
+3
+
+real	0m0.015s
+user	0m0.011s
+sys	0m0.004s
+4
+
+real	0m0.168s
+user	0m0.004s
+sys	0m0.013s
+5
+
+real	0m0.014s
+user	0m0.007s
+sys	0m0.007s
+6
+
+real	0m0.151s
+user	0m0.017s
+sys	0m0.000s
+7
+
+real	0m0.015s
+user	0m0.010s
+sys	0m0.005s
+8
+
+real	0m0.017s
+user	0m0.004s
+sys	0m0.013s
+9
+
+real	0m0.142s
+user	0m0.008s
+sys	0m0.010s
+10
+
+real	0m0.015s
+user	0m0.007s
+sys	0m0.008s
+00100 ./Assignment3/input_data/ellipse_N_00100.gal 200
+===================================================================================
+00010 ./Assignment3/input_data/ellipse_N_00010.gal 200
+N = 10
+fileName1 = 'result.gal'
+fileName2 = './Assignment3/ref_output_data/ellipse_N_00010_after200steps.gal'
+pos_maxdiff =   0.000000000000
+1
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+2
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+3
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+4
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+5
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+6
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+7
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+8
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+9
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+10
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+00100 ./Assignment3/input_data/ellipse_N_00100.gal 200
+N = 100
+fileName1 = 'result.gal'
+fileName2 = './Assignment3/ref_output_data/ellipse_N_00100_after200steps.gal'
+read_doubles_from_file error: size of input file 'result.gal' does not match the given n.
+For n = 600 the file size is expected to be (n * sizeof(double)) = 4800 but the actual file size is 480.
+Error reading file 'result.gal'
+1
+
+real	0m0.006s
+user	0m0.006s
+sys	0m0.000s
+2
+
+real	0m0.006s
+user	0m0.006s
+sys	0m0.000s
+3
+
+real	0m0.006s
+user	0m0.006s
+sys	0m0.000s
+4
+
+real	0m0.007s
+user	0m0.006s
+sys	0m0.000s
+5
+
+real	0m0.008s
+user	0m0.007s
+sys	0m0.000s
+6
+
+real	0m0.006s
+user	0m0.006s
+sys	0m0.000s
+7
+
+real	0m0.006s
+user	0m0.006s
+sys	0m0.000s
+8
+
+real	0m0.007s
+user	0m0.006s
+sys	0m0.000s
+9
+
+real	0m0.006s
+user	0m0.006s
+sys	0m0.000s
+10
+
+real	0m0.006s
+user	0m0.003s
+sys	0m0.003s
+00500 ./Assignment3/input_data/ellipse_N_00500.gal 200
+N = 500
+fileName1 = 'result.gal'
+fileName2 = './Assignment3/ref_output_data/ellipse_N_00500_after200steps.gal'
+read_doubles_from_file error: size of input file 'result.gal' does not match the given n.
+For n = 3000 the file size is expected to be (n * sizeof(double)) = 24000 but the actual file size is 480.
+Error reading file 'result.gal'
+1
+
+real	0m0.136s
+user	0m0.132s
+sys	0m0.004s
+2
+
+real	0m0.129s
+user	0m0.128s
+sys	0m0.000s
+3
+
+real	0m0.129s
+user	0m0.129s
+sys	0m0.000s
+4
+
+real	0m0.166s
+user	0m0.160s
+sys	0m0.005s
+5
+
+real	0m0.121s
+user	0m0.121s
+sys	0m0.000s
+6
+
+real	0m0.103s
+user	0m0.103s
+sys	0m0.000s
