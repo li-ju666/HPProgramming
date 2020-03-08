@@ -3,7 +3,7 @@
 #include <math.h>
 #include "structdef.h"
 
-#define THETA (double)0.07
+#define THETA 0.05
 typedef struct checkresult{
     int drct; 
     vec2d topleft, botright; 
@@ -11,11 +11,8 @@ typedef struct checkresult{
 
 checkresult check(node**, vec2d); 
 
-int count=0, icount=0, cal_count=0, pcount = 0; 
 
 void insert(node **cnode, double mass, vec2d pos, vec2d topleft, vec2d botright){
-    /* icount++; */ 
-    /* printf("Number of insert function call: %d. \n", icount); */ 
     if((*cnode) == NULL){
 	// Construct a new leaft node
 	*cnode = (node*)calloc(1, sizeof(node));
@@ -47,10 +44,10 @@ void insert(node **cnode, double mass, vec2d pos, vec2d topleft, vec2d botright)
 	insert(&((**cnode).children[result.drct]), mass, pos, result.topleft, result.botright); 
 	(**cnode).mass += mass;
     }
-
-
 }
 
+
+/* a function to check which child a given particle should be inserted in, returning children number and boundary positions */
 checkresult check(node** cnode, vec2d pos){
     // drct 0 is topleft, 1 is topright, 2 is bottomleft and 3 is bottom right
     checkresult result; 
@@ -90,6 +87,8 @@ checkresult check(node** cnode, vec2d pos){
     return result;
 }
 
+
+/* a function to free all resources of a quadtree */
 void release(node* cnode){
     if(cnode != NULL){
 	if((*cnode).is_leaf == 0){
@@ -102,9 +101,8 @@ void release(node* cnode){
 }
 
 
+/* a function to print the quadtree out. */ 
 void print(node* cnode, int depth){
-    pcount++; 
-    printf("%d", pcount); 
     for(int i=0; i<depth; i++){
 	printf("  "); 
     } 
@@ -120,22 +118,19 @@ void print(node* cnode, int depth){
 }
 
 void acccal(node* cnode, particle* p, vec2d* acce){
-    /* count++; */ 
-    /* printf("Number of acce function call: %d. \n", count); */ 
-    /* if(cnode != NULL){ */
-	/* cal_count++; */ 
-	/* printf("Valid acce call: %d. \n", cal_count); */ 
-	/* printf("Current position: %f, %f. \n", (*cnode).pos.x, (*cnode).pos.y); */
+    /* calculate the distance between particle p and current node */
     double distance = sqrt(((*cnode).pos.x - (*p).pos.x) * ((*cnode).pos.x - (*p).pos.x) + 
 			    ((*cnode).pos.y - (*p).pos.y) * ((*cnode).pos.y - (*p).pos.y)); 
+    
     if((*cnode).is_leaf == 0){
-	/* printf("Now distance is: %.10f. \n", distance); */ 
-	double theta = ((*cnode).botright.x - (*cnode).topleft.x)/distance; 
-	if(theta <= THETA){
+	/* float division is avoided, using multiplying instead. */ 
+        if(((*cnode).botright.x - (*cnode).topleft.x) <= THETA*distance){
+	    /* update acceleration */
 	    double coeff = (*cnode).mass / ((distance+EPS)*(distance+EPS)*(distance+EPS)); 
 	    (*acce).x += coeff * ((*p).pos.x - (*cnode).pos.x); 
 	    (*acce).y += coeff * ((*p).pos.y - (*cnode).pos.y); 
 	}
+	/* traverse all non-null children node of current node */
 	else{
 	    if((*cnode).children[0] != NULL){ acccal((*cnode).children[0], p, acce); } 
 	    if((*cnode).children[1] != NULL){ acccal((*cnode).children[1], p, acce); } 
@@ -143,29 +138,11 @@ void acccal(node* cnode, particle* p, vec2d* acce){
 	    if((*cnode).children[3] != NULL){ acccal((*cnode).children[3], p, acce); }  
 	}
     }
+    /* distance is used to check if current node is particle p itself */
     else if(distance > 1e-10){
 	    double coeff = (*cnode).mass / ((distance+EPS)*(distance+EPS)*(distance+EPS)); 
 	    (*acce).x += coeff * ((*p).pos.x - (*cnode).pos.x); 
 	    (*acce).y += coeff * ((*p).pos.y - (*cnode).pos.y); 
     }
-    
-	/* /1* printf("Now theta is: %.10f. \n", theta); *1/ */ 
-	/* if(distance > 1e-10 && (theta <= THETA || (*cnode).is_leaf == 1)){ */
-	/*     /1* printf("Condition: theta: %f, is leaf? %d. \n", theta, (*cnode).is_leaf); *1/ */ 
-	/*     (*acce).x += (*cnode).mass / ((distance+EPS)*(distance+EPS)*(distance+EPS)) * ((*p).pos.x - (*cnode).pos.x); */ 
-	/*     (*acce).y += (*cnode).mass / ((distance+EPS)*(distance+EPS)*(distance+EPS)) * ((*p).pos.y - (*cnode).pos.y); */ 
-	/* } */
-	/* else if((*cnode).is_leaf == 0){ */
-	/*     /1* printf("Go further! \n"); *1/ */
-	/* 	if((*cnode).children[0] != NULL){ acccal((*cnode).children[0], p, acce); } */ 
-	/* 	if((*cnode).children[1] != NULL){ acccal((*cnode).children[1], p, acce); } */ 
-	/* 	if((*cnode).children[2] != NULL){ acccal((*cnode).children[2], p, acce); } */ 
-	/* 	if((*cnode).children[3] != NULL){ acccal((*cnode).children[3], p, acce); } */  
-	    /* acccal((*cnode).children[0], p, acce, pnum); */ 
-	    /* acccal((*cnode).children[1], p, acce, pnum); */ 
-	    /* acccal((*cnode).children[2], p, acce, pnum); */ 
-	    /* acccal((*cnode).children[3], p, acce, pnum); */ 
-    /* } */
-    /* else{printf("Null called. \n"); } */
 }
 
