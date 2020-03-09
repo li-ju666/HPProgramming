@@ -1,5 +1,5 @@
 C := gcc
-FLAG := -O2
+FLAG := -Ofast
 
 test: main.o qtree.o
 	$(C) -o test main.o qtree.o -lm $(FLAG)

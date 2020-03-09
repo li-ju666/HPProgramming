@@ -10,20 +10,25 @@ typedef struct checkresult{
 
 static checkresult check(node**, vec2d); 
 
-static node* node_init(double mass, vec2d pos, vec2d topleft, vec2d botright){
-    node* result = (node*)calloc(1, sizeof(node)); 
-    result->is_leaf = 1; 
-    result->pos = pos; 
-    result->mass = mass; 
-    result->topleft = topleft; 
-    result->botright = botright; 
-    return result; 
-}
+/* static node* node_init(double mass, vec2d pos, vec2d topleft, vec2d botright){ */
+/*     node* result = (node*)calloc(1, sizeof(node)); */ 
+/*     result->is_leaf = 1; */ 
+/*     result->pos = pos; */ 
+/*     result->mass = mass; */ 
+/*     result->topleft = topleft; */ 
+/*     result->botright = botright; */ 
+/*     return result; */ 
+/* } */
 
 void insert(node **cnode, double mass, vec2d pos, vec2d topleft, vec2d botright){
     if((*cnode) == NULL){
 	// Construct a new leaft node
-	*cnode = node_init(mass, pos, topleft, botright); 
+	*cnode = (node*)calloc(1, sizeof(node)); 
+        (**cnode).is_leaf = 1; 
+	(**cnode).pos = pos; 
+	(**cnode).mass = mass; 
+	(**cnode).topleft = topleft; 
+	(**cnode).botright = botright; 	
     }
     else if((**cnode).is_leaf == 1){
 	// Current node needs to be split into a non-leaf node with two leaf nodes

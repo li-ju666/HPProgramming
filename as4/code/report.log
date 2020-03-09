@@ -3,7 +3,7 @@
 N = 10
 fileName1 = 'result.gal'
 fileName2 = 'refresult.gal'
-pos_maxdiff =   0.000406633018
+pos_maxdiff =   0.000961160860
 1
 
 real	0m0.002s
@@ -12,13 +12,13 @@ sys	0m0.000s
 2
 
 real	0m0.002s
-user	0m0.002s
+user	0m0.003s
 sys	0m0.000s
 3
 
-real	0m0.002s
-user	0m0.002s
-sys	0m0.000s
+real	0m0.006s
+user	0m0.005s
+sys	0m0.001s
 4
 
 real	0m0.002s
@@ -31,18 +31,18 @@ user	0m0.002s
 sys	0m0.000s
 6
 
-real	0m0.002s
-user	0m0.002s
-sys	0m0.000s
+real	0m0.003s
+user	0m0.000s
+sys	0m0.002s
 7
 
-real	0m0.002s
-user	0m0.002s
+real	0m0.003s
+user	0m0.003s
 sys	0m0.000s
 8
 
 real	0m0.002s
-user	0m0.002s
+user	0m0.003s
 sys	0m0.000s
 9
 
@@ -58,274 +58,580 @@ sys	0m0.000s
 N = 100
 fileName1 = 'result.gal'
 fileName2 = 'refresult.gal'
-pos_maxdiff =   0.010308917066
+pos_maxdiff =   0.001701699997
 1
 
-real	0m0.066s
-user	0m0.065s
+real	0m0.049s
+user	0m0.049s
 sys	0m0.000s
 2
 
-real	0m0.094s
-user	0m0.093s
-sys	0m0.000s
+real	0m0.054s
+user	0m0.042s
+sys	0m0.012s
 3
 
-real	0m0.077s
-user	0m0.076s
-sys	0m0.001s
+real	0m0.053s
+user	0m0.046s
+sys	0m0.008s
 4
 
-real	0m0.066s
-user	0m0.066s
-sys	0m0.000s
+real	0m0.054s
+user	0m0.050s
+sys	0m0.004s
 5
 
-real	0m0.068s
-user	0m0.064s
+real	0m0.052s
+user	0m0.048s
 sys	0m0.004s
 6
 
-real	0m0.080s
-user	0m0.080s
+real	0m0.051s
+user	0m0.051s
 sys	0m0.000s
 7
 
-real	0m0.064s
-user	0m0.059s
-sys	0m0.005s
+real	0m0.052s
+user	0m0.052s
+sys	0m0.000s
 8
 
-real	0m0.062s
-user	0m0.062s
-sys	0m0.000s
+real	0m0.058s
+user	0m0.049s
+sys	0m0.009s
 9
 
-real	0m0.063s
-user	0m0.063s
+real	0m0.053s
+user	0m0.053s
 sys	0m0.000s
 10
 
-real	0m0.062s
-user	0m0.063s
-sys	0m0.000s
+real	0m0.051s
+user	0m0.047s
+sys	0m0.005s
 00500 ./input_data/ellipse_N_00500.gal 200
 N = 500
 fileName1 = 'result.gal'
 fileName2 = 'refresult.gal'
-pos_maxdiff =   0.001245560574
+pos_maxdiff =   0.001692706726
 1
 
-real	0m1.209s
-user	0m1.209s
+real	0m0.553s
+user	0m0.552s
 sys	0m0.000s
 2
 
-real	0m1.210s
-user	0m1.210s
+real	0m0.554s
+user	0m0.553s
 sys	0m0.000s
 3
 
-real	0m1.211s
-user	0m1.211s
-sys	0m0.000s
+real	0m0.552s
+user	0m0.539s
+sys	0m0.012s
 4
 
-real	0m1.209s
-user	0m1.205s
-sys	0m0.004s
+real	0m0.554s
+user	0m0.526s
+sys	0m0.028s
 5
 
-real	0m1.208s
-user	0m1.208s
-sys	0m0.000s
+real	0m0.554s
+user	0m0.542s
+sys	0m0.012s
 6
 
-real	0m1.210s
-user	0m1.210s
-sys	0m0.000s
+real	0m0.551s
+user	0m0.546s
+sys	0m0.004s
 7
 
-real	0m1.198s
-user	0m1.194s
+real	0m0.551s
+user	0m0.547s
 sys	0m0.004s
 8
 
-real	0m1.212s
-user	0m1.212s
-sys	0m0.000s
+real	0m0.550s
+user	0m0.545s
+sys	0m0.004s
 9
 
-real	0m1.210s
-user	0m1.210s
-sys	0m0.000s
+real	0m0.551s
+user	0m0.539s
+sys	0m0.012s
 10
 
-real	0m1.207s
-user	0m1.203s
+real	0m0.552s
+user	0m0.547s
 sys	0m0.004s
 01000 ./input_data/ellipse_N_01000.gal 200
 N = 1000
 fileName1 = 'result.gal'
 fileName2 = 'refresult.gal'
-pos_maxdiff =   0.001070598999
+pos_maxdiff =   0.002220442078
 1
 
-real	0m4.523s
-user	0m4.519s
-sys	0m0.004s
+real	0m1.546s
+user	0m1.530s
+sys	0m0.016s
 2
 
-real	0m5.146s
-user	0m5.146s
-sys	0m0.000s
+real	0m1.548s
+user	0m1.540s
+sys	0m0.008s
 3
 
-real	0m4.587s
-user	0m4.587s
-sys	0m0.000s
+real	0m1.551s
+user	0m1.530s
+sys	0m0.020s
 4
 
-real	0m4.521s
-user	0m4.521s
-sys	0m0.000s
+real	0m1.539s
+user	0m1.534s
+sys	0m0.004s
 5
 
-real	0m4.553s
-user	0m4.553s
-sys	0m0.000s
+real	0m1.546s
+user	0m1.530s
+sys	0m0.016s
 6
 
-real	0m4.526s
-user	0m4.526s
-sys	0m0.000s
+real	0m1.546s
+user	0m1.530s
+sys	0m0.016s
 7
 
-real	0m4.561s
-user	0m4.561s
-sys	0m0.000s
+real	0m1.546s
+user	0m1.530s
+sys	0m0.016s
 8
 
-real	0m4.548s
-user	0m4.547s
-sys	0m0.000s
+real	0m1.539s
+user	0m1.511s
+sys	0m0.028s
 9
 
-real	0m4.522s
-user	0m4.522s
-sys	0m0.000s
+real	0m1.555s
+user	0m1.517s
+sys	0m0.036s
 10
 
-real	0m4.541s
-user	0m4.537s
-sys	0m0.004s
+real	0m1.555s
+user	0m1.543s
+sys	0m0.012s
 02000 ./input_data/ellipse_N_02000.gal 200
 N = 2000
 fileName1 = 'result.gal'
 fileName2 = 'refresult.gal'
-pos_maxdiff =   0.000502599495
+pos_maxdiff =   0.000885759450
 1
 
-real	0m16.601s
-user	0m16.601s
-sys	0m0.000s
+real	0m4.080s
+user	0m4.044s
+sys	0m0.036s
 2
 
-real	0m16.651s
-user	0m16.651s
-sys	0m0.000s
+real	0m4.097s
+user	0m4.044s
+sys	0m0.052s
 3
 
-real	0m16.678s
-user	0m16.677s
-sys	0m0.000s
+real	0m4.092s
+user	0m4.063s
+sys	0m0.028s
 4
 
-real	0m16.614s
-user	0m16.609s
-sys	0m0.004s
+real	0m4.511s
+user	0m4.466s
+sys	0m0.045s
 5
 
-real	0m16.577s
-user	0m16.576s
-sys	0m0.000s
+real	0m4.125s
+user	0m4.101s
+sys	0m0.024s
 6
 
-real	0m16.583s
-user	0m16.579s
-sys	0m0.004s
+real	0m4.077s
+user	0m4.029s
+sys	0m0.048s
 7
 
-real	0m16.581s
-user	0m16.581s
-sys	0m0.000s
+real	0m4.092s
+user	0m4.067s
+sys	0m0.024s
 8
 
-real	0m16.608s
-user	0m16.607s
-sys	0m0.000s
+real	0m4.083s
+user	0m4.067s
+sys	0m0.016s
 9
 
-real	0m16.625s
-user	0m16.625s
-sys	0m0.000s
+real	0m4.105s
+user	0m4.072s
+sys	0m0.032s
 10
 
-real	0m16.682s
-user	0m16.678s
-sys	0m0.004s
+real	0m4.106s
+user	0m4.058s
+sys	0m0.048s
 03000 ./input_data/ellipse_N_03000.gal 100
 N = 3000
 fileName1 = 'result.gal'
 fileName2 = 'refresult.gal'
-pos_maxdiff =   0.000045563056
+pos_maxdiff =   0.000108287408
 1
 
-real	0m18.267s
-user	0m18.262s
-sys	0m0.004s
+real	0m3.618s
+user	0m3.569s
+sys	0m0.048s
 2
 
-real	0m18.281s
-user	0m18.277s
-sys	0m0.004s
+real	0m3.626s
+user	0m3.589s
+sys	0m0.036s
 3
 
-real	0m18.239s
-user	0m18.239s
+real	0m3.623s
+user	0m3.595s
+sys	0m0.028s
+4
+
+real	0m3.618s
+user	0m3.578s
+sys	0m0.040s
+5
+
+real	0m2.772s
+user	0m2.756s
+sys	0m0.016s
+===================================================================================
+00010 ./input_data/ellipse_N_00010.gal 200
+N = 10
+fileName1 = 'result.gal'
+fileName2 = 'refresult.gal'
+pos_maxdiff =   0.000961160860
+1
+
+real	0m0.002s
+user	0m0.002s
+sys	0m0.000s
+2
+
+real	0m0.003s
+user	0m0.003s
+sys	0m0.000s
+3
+
+real	0m0.002s
+user	0m0.002s
 sys	0m0.000s
 4
 
-real	0m18.892s
-user	0m18.887s
-sys	0m0.004s
+real	0m0.002s
+user	0m0.002s
+sys	0m0.000s
 5
 
-real	0m18.235s
-user	0m18.227s
-sys	0m0.008s
+real	0m0.002s
+user	0m0.002s
+sys	0m0.000s
 6
 
-real	0m18.241s
-user	0m18.241s
+real	0m0.002s
+user	0m0.002s
 sys	0m0.000s
 7
 
-real	0m18.275s
-user	0m18.275s
+real	0m0.002s
+user	0m0.002s
+sys	0m0.001s
+8
+
+real	0m0.002s
+user	0m0.002s
+sys	0m0.000s
+9
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.003s
+10
+
+real	0m0.002s
+user	0m0.002s
+sys	0m0.000s
+00100 ./input_data/ellipse_N_00100.gal 200
+N = 100
+fileName1 = 'result.gal'
+fileName2 = 'refresult.gal'
+pos_maxdiff =   0.001701699997
+1
+
+real	0m0.050s
+user	0m0.050s
+sys	0m0.000s
+2
+
+real	0m0.052s
+user	0m0.048s
+sys	0m0.005s
+3
+
+real	0m0.051s
+user	0m0.051s
+sys	0m0.000s
+4
+
+real	0m0.050s
+user	0m0.043s
+sys	0m0.008s
+5
+
+real	0m0.052s
+user	0m0.051s
+sys	0m0.000s
+6
+
+real	0m0.056s
+user	0m0.055s
+sys	0m0.000s
+7
+
+real	0m0.048s
+user	0m0.043s
+sys	0m0.004s
+8
+
+real	0m0.047s
+user	0m0.039s
+sys	0m0.008s
+9
+
+real	0m0.047s
+user	0m0.047s
+sys	0m0.000s
+10
+
+real	0m0.048s
+user	0m0.047s
+sys	0m0.000s
+00500 ./input_data/ellipse_N_00500.gal 200
+N = 500
+fileName1 = 'result.gal'
+fileName2 = 'refresult.gal'
+pos_maxdiff =   0.001692706726
+1
+
+real	0m0.553s
+user	0m0.545s
+sys	0m0.008s
+2
+
+real	0m0.553s
+user	0m0.545s
+sys	0m0.008s
+3
+
+real	0m0.550s
+user	0m0.542s
+sys	0m0.008s
+4
+
+real	0m0.552s
+user	0m0.539s
+sys	0m0.012s
+5
+
+real	0m0.554s
+user	0m0.550s
+sys	0m0.004s
+6
+
+real	0m0.554s
+user	0m0.542s
+sys	0m0.012s
+7
+
+real	0m0.553s
+user	0m0.553s
 sys	0m0.000s
 8
 
-real	0m18.388s
-user	0m18.383s
-sys	0m0.004s
+real	0m0.553s
+user	0m0.533s
+sys	0m0.020s
 9
 
-real	0m18.267s
-user	0m18.263s
-sys	0m0.004s
+real	0m0.552s
+user	0m0.540s
+sys	0m0.012s
 10
 
-real	0m18.311s
-user	0m18.311s
-sys	0m0.000s
+real	0m0.551s
+user	0m0.543s
+sys	0m0.008s
+01000 ./input_data/ellipse_N_01000.gal 200
+N = 1000
+fileName1 = 'result.gal'
+fileName2 = 'refresult.gal'
+pos_maxdiff =   0.002220442078
+1
+
+real	0m1.547s
+user	0m1.507s
+sys	0m0.040s
+2
+
+real	0m1.548s
+user	0m1.520s
+sys	0m0.028s
+3
+
+real	0m1.549s
+user	0m1.537s
+sys	0m0.012s
+4
+
+real	0m1.546s
+user	0m1.526s
+sys	0m0.020s
+5
+
+real	0m1.555s
+user	0m1.547s
+sys	0m0.008s
+6
+
+real	0m1.555s
+user	0m1.547s
+sys	0m0.008s
+7
+
+real	0m1.551s
+user	0m1.527s
+sys	0m0.024s
+8
+
+real	0m1.558s
+user	0m1.538s
+sys	0m0.020s
+9
+
+real	0m1.557s
+user	0m1.544s
+sys	0m0.012s
+10
+
+real	0m1.553s
+user	0m1.537s
+sys	0m0.016s
+02000 ./input_data/ellipse_N_02000.gal 200
+N = 2000
+fileName1 = 'result.gal'
+fileName2 = 'refresult.gal'
+pos_maxdiff =   0.000885759450
+1
+
+real	0m4.127s
+user	0m4.079s
+sys	0m0.048s
+2
+
+real	0m4.130s
+user	0m4.098s
+sys	0m0.032s
+3
+
+real	0m4.931s
+user	0m4.891s
+sys	0m0.039s
+4
+
+real	0m4.186s
+user	0m4.129s
+sys	0m0.056s
+5
+
+real	0m4.145s
+user	0m4.108s
+sys	0m0.036s
+6
+
+real	0m4.124s
+user	0m4.076s
+sys	0m0.048s
+7
+
+real	0m4.114s
+user	0m4.090s
+sys	0m0.024s
+8
+
+real	0m4.107s
+user	0m4.067s
+sys	0m0.040s
+9
+
+real	0m4.114s
+user	0m4.097s
+sys	0m0.016s
+10
+
+real	0m4.130s
+user	0m4.106s
+sys	0m0.024s
+03000 ./input_data/ellipse_N_03000.gal 100
+N = 3000
+fileName1 = 'result.gal'
+fileName2 = 'refresult.gal'
+pos_maxdiff =   0.000108287408
+1
+
+real	0m3.644s
+user	0m3.608s
+sys	0m0.036s
+2
+
+real	0m3.654s
+user	0m3.614s
+sys	0m0.040s
+3
+
+real	0m3.647s
+user	0m3.619s
+sys	0m0.028s
+4
+
+real	0m3.637s
+user	0m3.589s
+sys	0m0.048s
+5
+
+real	0m3.625s
+user	0m3.597s
+sys	0m0.028s
+6
+
+real	0m3.635s
+user	0m3.607s
+sys	0m0.028s
+7
+
+real	0m3.650s
+user	0m3.618s
+sys	0m0.032s
+8
+
+real	0m3.623s
+user	0m3.595s
+sys	0m0.028s
+9
+
+real	0m3.625s
+user	0m3.605s
+sys	0m0.020s
+10
+
+real	0m3.636s
+user	0m3.616s
+sys	0m0.020s
