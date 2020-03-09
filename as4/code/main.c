@@ -6,14 +6,15 @@
 #include <sys/time.h>
 
 int main(int argc, char* argv[]){
-    if(argc!=6){
-	printf("Error: 5 input parameters expected! \n"); 
+    if(argc!=7){
+	printf("Error: 6 input parameters expected! \n"); 
 	return 1; 
     }
     /* Assign parameters to variables */ 
     int pnum = atoi(argv[1]), nsteps = atoi(argv[3]); 
     double delta_t = atof(argv[4]); 
-    char graphic = atoi(argv[5]); 
+    float THETA = atof(argv[5]); 
+    char graphic = atoi(argv[6]); 
 
     FILE* fp = fopen(argv[2], "r"); 
     particle* part_ary = (particle*)malloc(pnum*sizeof(particle)); 
@@ -38,7 +39,11 @@ int main(int argc, char* argv[]){
 	gettimeofday(&insert_start, NULL); 
 	root = NULL; 
 	
-	/* create a quadtree with all particles */
+	/* for(int i=0; i<pnum; i++){ */
+	/*     printf("Particle mass is: %f, position is: (%f, %f). \n", part_ary[i].mass, part_ary[i].pos.x, part_ary[i].pos.y); */ 
+	/* } */
+	
+	    /* create a quadtree with all particles */
 	for(int i=0; i<pnum; i++){
 	vec2d topleft, botright, pos; 
 	topleft.x = topleft.y = 0; 
@@ -54,7 +59,7 @@ int main(int argc, char* argv[]){
 	/* calculate the acceleration of particles and update the information in particle array */
 	for(int i=0; i<pnum; i++){
 	    vec2d acce = {0,0}; 
-	    acccal(root, &part_ary[i], &acce);
+	    acccal(root, &part_ary[i], &acce, THETA);
 	    part_ary[i].vel.x += -(double)100.0/pnum*acce.x*delta_t; 
 	    part_ary[i].vel.y += -(double)100.0/pnum*acce.y*delta_t; 
 	    part_ary[i].pos.x += part_ary[i].vel.x*delta_t;

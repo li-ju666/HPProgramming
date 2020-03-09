@@ -25,4 +25,4 @@ typedef struct particle{
 void insert(node**, double, vec2d, vec2d, vec2d);
 void print(node*, int); 
 void release(node*);
-void acccal(node*, particle*, vec2d*); 
+void acccal(node*, particle*, vec2d*, float); 
