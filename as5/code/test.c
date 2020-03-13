@@ -1,25 +1,35 @@
 #include <pthread.h>
 #include <stdio.h>
+#include <math.h>
 
 pthread_barrier_t bar; 
-pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER; 
-pthread_cond_t cond = PTHREAD_COND_INITIALIZER; 
+pthread_mutex_t mutex; 
+pthread_cond_t cond_update = PTHREAD_COND_INITIALIZER, cond_cal = PTHREAD_COND_INITIALIZER; 
 
-int finish=0, update=0, sub=0; 
+#define MAX 1000000
+
+int end = 0, waiting = 0, update=0; 
 
 void* threadfun(void* arg){
-    while(finish==0){
+    while(end == 0){
 	pthread_mutex_lock(&mutex); 
-	while(update == 0){
-	    pthread_cond_wait(&cond, &mutex); 
-	    printf("I am waiting! \n"); 
+	while(1){
+	    waiting++;
+	    /* printf("Now %d threads are waiting. \n", waiting); */ 
+	    pthread_cond_wait(&cond_update, &mutex);
+	    /* printf("Notified. \n"); */ 
+	    if(end == 1){return NULL;}
+	    break; 
 	}
 	pthread_mutex_unlock(&mutex); 
-	printf("Subprint! \n");
-	sub++; 	
+	for(int i=0; i<MAX; i++){
+	    double a = sqrt(i); 
+	}
+	printf("This is the sub thread. \n"); 
 	pthread_barrier_wait(&bar); 
     }
 }
+
 
 int main(){
     pthread_t id[5]; 
@@ -28,26 +38,52 @@ int main(){
     for(int i=0; i<5; i++){
 	pthread_create(&id[i], NULL, threadfun, NULL); 
     }
-    printf("threads created. \n"); 
-    
-    printf("main print start! \n"); 
-    pthread_mutex_lock(&mutex); 
-    update = 1; 
-    pthread_cond_broadcast(&cond); 
+    printf("threads created but not working. \n"); 
+
+    printf("Main Start! \n"); 
+    while(1){
+        pthread_mutex_lock(&mutex); 
+	if(waiting == 5){
+	    /* printf("Enough prepared. \n"); */ 
+	    break; 
+	}
+	pthread_mutex_unlock(&mutex); 
+    }
+    waiting = 0; 
+    pthread_cond_broadcast(&cond_update); 
     pthread_mutex_unlock(&mutex); 
 
     int i = 1;
     while(i<5){
-	pthread_barrier_wait(&bar); 
-	printf("Main print! \n"); 
-	pthread_mutex_lock(&mutex); 
-    	printf("sub: %d. \n", sub); 
-	update = 1; 
-	sub = 0; 
-	pthread_cond_broadcast(&cond);
+	pthread_barrier_wait(&bar);
+	while(1){
+	    pthread_mutex_lock(&mutex); 
+	    if(waiting == 5){
+		break; 
+	    }
+	    pthread_mutex_unlock(&mutex); 
+	}
+	for(int j=0; j<MAX; j++){
+	    double b = sqrt(j); 
+	}
+	printf("This is the main thread! \n"); 
+	waiting = 0; 
+	pthread_cond_broadcast(&cond_update);
 	pthread_mutex_unlock(&mutex); 	
-	i++; 
+	i++;
+       	/* printf("Now i is %d. \n", i); */ 
     }
     pthread_barrier_wait(&bar); 
-    finish = 1; 
+    while(1){
+        pthread_mutex_lock(&mutex); 
+        if(waiting == 5){
+	    break; 
+	}
+        pthread_mutex_unlock(&mutex);
+    }
+    end = 1; 
+    pthread_mutex_unlock(&mutex); 
+
+    printf("Finished! \n"); 
+    ; 
 }
