@@ -1,6 +1,7 @@
 #include <pthread.h>
 #include <stdio.h>
 #include <math.h>
+#include <stdlib.h>
 
 pthread_barrier_t bar; 
 pthread_mutex_t mutex; 
@@ -11,6 +12,7 @@ pthread_cond_t cond_update = PTHREAD_COND_INITIALIZER, cond_cal = PTHREAD_COND_I
 int end = 0, waiting = 0, update=0; 
 
 void* threadfun(void* arg){
+    int* a = (int*)arg; 
     while(end == 0){
 	pthread_mutex_lock(&mutex); 
 	while(1){
@@ -26,6 +28,7 @@ void* threadfun(void* arg){
 	    double a = sqrt(i); 
 	}
 	printf("This is the sub thread. \n"); 
+	printf("From threads, a is %d. \n", *a); 
 	pthread_barrier_wait(&bar); 
     }
 }
@@ -34,9 +37,11 @@ void* threadfun(void* arg){
 int main(){
     pthread_t id[5]; 
     pthread_barrier_init(&bar, NULL, 6); 
-
+    int* a = (int*)malloc(sizeof(int)); 
+    (*a) = 5; 
+    printf("A is %d. \n", *a); 
     for(int i=0; i<5; i++){
-	pthread_create(&id[i], NULL, threadfun, NULL); 
+	pthread_create(&id[i], NULL, threadfun, (void*)a); 
     }
     printf("threads created but not working. \n"); 
 

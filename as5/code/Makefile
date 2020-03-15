@@ -1,8 +1,8 @@
 C := gcc
-FLAG := -Ofast -std=c99
+FLAG := -Ofast
 
 test: main.o qtree.o
-	$(C) -o test main.o qtree.o -lm $(FLAG)
+	$(C) -o test main.o qtree.o -lm -lpthread $(FLAG)
 
 main.o: main.c structdef.h
 	$(C) -c main.c -lm $(FLAG)
