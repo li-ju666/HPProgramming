@@ -11,10 +11,10 @@ int main(int argc, char* argv[]){
 	return 1; 
     }
     /* Assign parameters to variables */ 
-    int pnum = atoi(argv[1]), nsteps = atoi(argv[3]); 
-    double delta_t = atof(argv[4]); 
-    float THETA = atof(argv[5]); 
-    char graphic = atoi(argv[6]); 
+    const int pnum = atoi(argv[1]), nsteps = atoi(argv[3]); 
+    const double delta_t = atof(argv[4]); 
+    const float THETA = atof(argv[5]); 
+    const char graphic = atoi(argv[6]); 
 
     FILE* fp = fopen(argv[2], "r"); 
     particle* part_ary = (particle*)malloc(pnum*sizeof(particle)); 

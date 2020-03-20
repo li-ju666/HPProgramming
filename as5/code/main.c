@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <math.h>
 #include <pthread.h>
+#include <sys/time.h>
 
 typedef struct threaddata{
     int id, nthread, pnum; 
@@ -64,7 +65,7 @@ int main(int argc, char* argv[]){
     const double delta_t = atof(argv[4]); 
     const float THETA = atof(argv[5]); 
     const char graphic = atoi(argv[6]); 
-
+    
     FILE* fp = fopen(argv[2], "r"); 
     particle* part_ary = (particle*)malloc(pnum*sizeof(particle)); 
     

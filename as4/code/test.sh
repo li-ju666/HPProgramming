@@ -13,7 +13,7 @@ echo ===========================================================================
 for file in $(ls ${folder_ref})
 do
     echo ${file:10:5} ${folder_input}${file:0:15}${tail} ${file:21:3} >> report.log
-    ./test ${file:10:5} ${folder_input}${file:0:15}${tail} ${file:21:3} 0.00001 0.25 0
+    ./test ${file:10:5} ${folder_input}${file:0:15}${tail} ${file:21:3} 0.00001 0 0
     ./galsim  ${file:10:5} ${folder_input}${file:0:15}${tail} ${file:21:3} 0.00001 0
     ./compare ${file:10:5} result.gal refresult.gal >> report.log
     for i in {1..10}
