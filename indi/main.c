@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <sys/time.h>
+#include <omp.h>
 
 #define TEST 0
 
@@ -69,6 +70,7 @@ int main(int argc, char* argv[]){
 #endif
 
     /* calculate matrix Q with modified gram-schmidi process */
+#pragma omp parallel for num_threads(2) 
     for(int i=0; i<M; i++){
 	normalize(A, Q, i, M); 
 	for(int j=i+1; j<M; j++){

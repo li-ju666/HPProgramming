@@ -1,10 +1,10 @@
 C := gcc
-FLAG := -lm -Wall
+FLAG := -lm -Wall -O3
 
 all: qr check generate
 
 qr: main.c
-	$(C) main.c -o qr $(FLAG)
+	$(C) main.c -o qr $(FLAG) -fopenmp
 
 check: check.c
 	$(C) check.c -o check $(FLAG)
