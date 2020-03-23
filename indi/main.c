@@ -2,6 +2,9 @@
 #include <math.h>
 #include <stdlib.h>
 #include <string.h>
+#include <sys/time.h>
+
+#define TEST 0
 
 void visualize(double*, int, int); 
 void normalize(double*, double*, int, int); 
@@ -9,10 +12,12 @@ void substract(double*, double*, int, int, int);
 double multiply(double*, double*, int, int, int); 
 
 int main(int argc, char* argv[]){
+    /* check if input file parameter is given */
     if(argc != 2){
 	printf("Error: 1 input parameter expected! \n"); 
 	return 1; 
     }
+    /* read dimension data from input  file */
     int M, N; 
     FILE* fp = fopen(argv[1], "r"); 
     if(fp == NULL){printf("Error: Invalid input file! \n"); return 1; }
@@ -23,32 +28,90 @@ int main(int argc, char* argv[]){
 	return 1; 
     }
     printf("Dimension: %d * %d. \n", M, N);
-    double* A = malloc(M*N*sizeof(double)); 
+
+    /* Matrix variable preparation */
+    double* A = malloc(M*M*sizeof(double)); 
     double* oriA = malloc(M*N*sizeof(double)); 
-    double* Q = malloc(M*N*sizeof(double)); 
-    double* R = calloc(N*N, sizeof(double)); 
+    double* Q = malloc(M*M*sizeof(double)); 
+    double* R = calloc(M*N, sizeof(double)); 
+    
+    /* timeval is used to be the seed of rand() */
+    struct timeval randseed; 
+
+    /* read matrix data from input file */
     if(fread(A, sizeof(double), M*N, fp) != M*N){
 	printf("Error: Matrix data read failed! \n"); 
 	return 1; 
     }
-    
+    fclose(fp);
+
+    /* backup matrix A */
     memcpy(oriA, A, M*N*sizeof(double)); 
 
-    visualize(A, M, N);
-    for(int i=0; i<N; i++){
+    /* print matrix A */
+#if TEST
+    visualize(oriA, M, N); 
+#endif
+
+    /* insert random values to make matrix A be a square matrix */
+    for(int i=N; i<M; i++){
+	for(int j=0; j<M; j++){
+	    gettimeofday(&randseed, NULL); 
+	    srand((unsigned)randseed.tv_usec); 
+	    A[i*M+j] = ((double)rand())/(RAND_MAX/100); 
+	}
+    }
+
+    /* print extended matrix A */
+#if TEST    
+    printf("This is Matrix A with random insertion! \n"); 
+    visualize(A, M, M);
+#endif
+
+    /* calculate matrix Q with modified gram-schmidi process */
+    for(int i=0; i<M; i++){
 	normalize(A, Q, i, M); 
-	for(int j=i+1; j<N; j++){
+	for(int j=i+1; j<M; j++){
 	    substract(A, Q, j, i, M); 
 	}
     }
-    visualize(Q, M, N); 
+
+    /* print matrix Q */
+#if TEST
+    printf("This is Matrix Q! \n"); 
+    visualize(Q, M, M); 
+#endif
     
+    /* calculate matrix R */
     for(int i=0; i<N; i++){
 	for(int j=0; j<i+1; j++){
-	    R[i*N+j] = multiply(oriA, Q, i, j, M); 	
+	    R[i*M+j] = multiply(oriA, Q, i, j, M); 	
 	}
     }
-    visualize(R, N, N); 
+
+    /* print matrix R */
+#if TEST
+    visualize(R, M, N); 
+#endif
+
+    /* save matrix Q and R into a output file */
+    FILE* Qp = fopen("matQ.dat", "w");
+    int dimQ[2] = {M, M}; 
+    if(fwrite(&dimQ, sizeof(int), 2, Qp) != 2){printf("Error: Q matrix dimension write error! \n"); return 1; }
+    if(fwrite(Q, sizeof(double), M*M, Qp) != M*M){printf("Error: Q matrix write error! \n"); return 1; }
+    fclose(Qp); 
+
+    FILE* Rp = fopen("matR.dat", "w");  
+    int dimR[2] = {M, N}; 
+    if(fwrite(&dimR, sizeof(int), 2, Rp) != 2){printf("Error: R matrix dimension write error! \n"); return 1; }
+    if(fwrite(R, sizeof(double), M*N, Rp) != M*N){printf("Error: R matrix write error! \n"); return 1; }
+    fclose(Rp); 
+    
+    free(oriA); 
+    free(A); 
+    free(Q); 
+    free(R); 
+    return 0; 
 }
 
 void visualize(double* mat, int M, int N){
@@ -88,6 +151,6 @@ double multiply(double* A, double* Q, int aindex, int qindex, int length){
     for(int i=0; i<length; i++){
 	result += Q[qindex*length+i]*A[aindex*length+i]; 
     }
-    printf("%f. \n", result); 
+    /* printf("%f. \n", result); */ 
     return result; 
 }

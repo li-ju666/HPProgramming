@@ -41,7 +41,7 @@ int main(int argc, char* argv[]){
 	
 	    /* create a quadtree with all particles */
 	for(int i=0; i<pnum; i++){
-	vec2d topleft, botright, pos; 
+	vec2d topleft, botright; 
 	topleft.x = topleft.y = 0; 
 	botright.x = botright.y = 1;	
 	insert(&root, part_ary[i].mass, part_ary[i].pos, topleft, botright); 
@@ -59,7 +59,7 @@ int main(int argc, char* argv[]){
 	/* free all resources of the tree */
 	release(root); 
     }
-    fp = fopen("refresult.gal", "w"); 
+    fp = fopen("result.gal", "w"); 
     if(fwrite(part_ary, pnum, sizeof(particle), fp) == 0){
 	printf("Error: Write file failed! \n"); 
 	return 1; 	
